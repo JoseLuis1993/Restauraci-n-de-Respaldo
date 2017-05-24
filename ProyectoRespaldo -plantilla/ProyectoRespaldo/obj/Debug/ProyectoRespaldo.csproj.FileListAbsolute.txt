@@ -1,0 +1,584 @@
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\roslyn\csc.exe
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\roslyn\System.IO.FileSystem.dll
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\roslyn\System.IO.FileSystem.Primitives.dll
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\roslyn\VBCSCompiler.exe
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\ApplicationInsights.config
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\roslyn\csc.exe.config
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\roslyn\csc.rsp
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\roslyn\csi.exe
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\roslyn\csi.rsp
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\roslyn\System.AppContext.dll
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\roslyn\System.Collections.Immutable.dll
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\roslyn\System.Diagnostics.StackTrace.dll
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\roslyn\vbc.exe
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\roslyn\vbc.exe.config
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\roslyn\vbc.rsp
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\roslyn\VBCSCompiler.exe.config
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\ProyectoRespaldo.dll.config
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\ProyectoRespaldo.dll
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\ProyectoRespaldo.pdb
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\Antlr3.Runtime.dll
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\EntityFramework.dll
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\EntityFramework.SqlServer.dll
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\Microsoft.AI.Web.dll
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\Microsoft.AI.WindowsServer.dll
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\Microsoft.ApplicationInsights.dll
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\Microsoft.Owin.dll
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\Microsoft.Owin.Security.dll
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\Microsoft.Owin.Security.Google.dll
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\Microsoft.Web.Infrastructure.dll
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\Newtonsoft.Json.dll
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\Owin.dll
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\System.Web.Helpers.dll
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\System.Web.Mvc.dll
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\System.Web.Optimization.dll
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\System.Web.Razor.dll
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\System.Web.WebPages.Deployment.dll
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\System.Web.WebPages.dll
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\System.Web.WebPages.Razor.dll
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\WebGrease.dll
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\System.Web.Helpers.xml
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\System.Web.Mvc.xml
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\System.Web.Optimization.xml
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\System.Web.Razor.xml
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\System.Web.WebPages.xml
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\System.Web.WebPages.Deployment.xml
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\System.Web.WebPages.Razor.xml
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\Antlr3.Runtime.pdb
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\Newtonsoft.Json.xml
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\EntityFramework.xml
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\EntityFramework.SqlServer.xml
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\Microsoft.Owin.xml
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\Microsoft.Owin.Security.xml
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\Microsoft.Owin.Security.Google.xml
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\Microsoft.ApplicationInsights.xml
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\Microsoft.AI.WindowsServer.xml
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\Microsoft.AI.Web.xml
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\es\System.Web.Helpers.resources.dll
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\es\System.Web.Mvc.resources.dll
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\es\System.Web.Optimization.resources.dll
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\es\System.Web.Razor.resources.dll
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\es\System.Web.WebPages.resources.dll
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\es\System.Web.WebPages.Deployment.resources.dll
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\es\System.Web.WebPages.Razor.resources.dll
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\es\EntityFramework.resources.dll
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\es\EntityFramework.SqlServer.resources.dll
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\es\Microsoft.Owin.resources.dll
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\es\Microsoft.Owin.Security.resources.dll
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\es\Microsoft.Owin.Security.Google.resources.dll
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\obj\Debug\ProyectoRespaldo.dll
+c:\users\masther\documents\visual studio 2017\Projects\ProyectoRespaldo\ProyectoRespaldo\obj\Debug\ProyectoRespaldo.pdb
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\ApplicationInsights.config
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\csc.exe
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\csc.exe.config
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\csc.rsp
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\csi.exe
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\csi.rsp
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\System.AppContext.dll
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\vbc.exe
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\vbc.exe.config
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\vbc.rsp
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\VBCSCompiler.exe
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\ProyectoRespaldo.dll.config
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\ProyectoRespaldo.dll
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\ProyectoRespaldo.pdb
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Antlr3.Runtime.dll
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\EntityFramework.dll
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\EntityFramework.SqlServer.dll
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.AI.Web.dll
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.ApplicationInsights.dll
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Owin.dll
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Owin.Security.dll
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Newtonsoft.Json.dll
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Owin.dll
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\System.Web.Helpers.dll
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\System.Web.Mvc.dll
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\System.Web.Optimization.dll
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\System.Web.Razor.dll
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\System.Web.WebPages.Deployment.dll
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\System.Web.WebPages.dll
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\System.Web.WebPages.Razor.dll
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\WebGrease.dll
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\System.Web.Helpers.xml
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\System.Web.Mvc.xml
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\System.Web.Optimization.xml
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\System.Web.Razor.xml
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\System.Web.WebPages.xml
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\System.Web.WebPages.Deployment.xml
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\System.Web.WebPages.Razor.xml
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Antlr3.Runtime.pdb
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Newtonsoft.Json.xml
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\EntityFramework.xml
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\EntityFramework.SqlServer.xml
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Owin.xml
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Owin.Security.xml
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.ApplicationInsights.xml
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.AI.Web.xml
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\System.Web.Helpers.resources.dll
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\System.Web.Mvc.resources.dll
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\System.Web.Optimization.resources.dll
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\System.Web.Razor.resources.dll
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\System.Web.WebPages.resources.dll
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\EntityFramework.resources.dll
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\EntityFramework.SqlServer.resources.dll
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\Microsoft.Owin.resources.dll
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\Microsoft.Owin.Security.resources.dll
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\Microsoft.Owin.Security.Google.resources.dll
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\obj\Debug\ProyectoRespaldo.dll
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\obj\Debug\ProyectoRespaldo.pdb
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\DataTables.AspNet.Core.dll
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\DataTables.AspNet.Mvc5.dll
+C:\Users\masther\Documents\Visual Studio 2017\Projects\ProyectoRespaldo -plantilla\ProyectoRespaldo\obj\Debug\ProyectoRespaldo.csprojResolveAssemblyReference.cache
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\ApplicationInsights.config
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\csc.exe
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\csc.exe.config
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\csc.rsp
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\csi.exe
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\csi.rsp
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\System.AppContext.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\vbc.exe
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\vbc.exe.config
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\vbc.rsp
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\VBCSCompiler.exe
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\ProyectoRespaldo.dll.config
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\ProyectoRespaldo.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\ProyectoRespaldo.pdb
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Antlr3.Runtime.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\DataTables.AspNet.Core.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\DataTables.AspNet.Mvc5.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\EntityFramework.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\EntityFramework.SqlServer.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.AI.Web.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.ApplicationInsights.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Owin.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Owin.Security.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Newtonsoft.Json.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Owin.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\System.Web.Helpers.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\System.Web.Mvc.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\System.Web.Optimization.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\System.Web.Razor.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\System.Web.WebPages.Deployment.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\System.Web.WebPages.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\System.Web.WebPages.Razor.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\WebGrease.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Newtonsoft.Json.xml
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\System.Web.Helpers.xml
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\System.Web.Mvc.xml
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\System.Web.Optimization.xml
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\System.Web.Razor.xml
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\System.Web.WebPages.xml
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\System.Web.WebPages.Deployment.xml
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\System.Web.WebPages.Razor.xml
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Antlr3.Runtime.pdb
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\EntityFramework.xml
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\EntityFramework.SqlServer.xml
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Owin.xml
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Owin.Security.xml
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.ApplicationInsights.xml
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.AI.Web.xml
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\System.Web.Helpers.resources.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\System.Web.Mvc.resources.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\System.Web.Optimization.resources.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\System.Web.Razor.resources.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\System.Web.WebPages.resources.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\EntityFramework.resources.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\EntityFramework.SqlServer.resources.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\Microsoft.Owin.resources.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\Microsoft.Owin.Security.resources.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\Microsoft.Owin.Security.Google.resources.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\obj\Debug\ProyectoRespaldo.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\obj\Debug\ProyectoRespaldo.pdb
+C:\Users\user01\Source\Repos\Proyecto_Respaldo3\ProyectoRespaldo -plantilla\ProyectoRespaldo\obj\Debug\ProyectoRespaldo.csprojResolveAssemblyReference.cache
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\ApplicationInsights.config
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\csc.exe
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\csc.exe.config
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\csc.rsp
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\csi.exe
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\csi.rsp
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\System.AppContext.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\vbc.exe
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\vbc.exe.config
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\vbc.rsp
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\VBCSCompiler.exe
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\ProyectoRespaldo.dll.config
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\ProyectoRespaldo.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\ProyectoRespaldo.pdb
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Antlr3.Runtime.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\DataTables.AspNet.Core.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\DataTables.AspNet.Mvc5.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\EntityFramework.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\EntityFramework.SqlServer.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.AI.Web.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.ApplicationInsights.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Owin.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Owin.Security.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Newtonsoft.Json.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Owin.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\System.Web.Helpers.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\System.Web.Mvc.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\System.Web.Optimization.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\System.Web.Razor.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\System.Web.WebPages.Deployment.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\System.Web.WebPages.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\System.Web.WebPages.Razor.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\WebGrease.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Newtonsoft.Json.xml
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\System.Web.Helpers.xml
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\System.Web.Mvc.xml
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\System.Web.Optimization.xml
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\System.Web.Razor.xml
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\System.Web.WebPages.xml
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\System.Web.WebPages.Deployment.xml
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\System.Web.WebPages.Razor.xml
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Antlr3.Runtime.pdb
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\EntityFramework.xml
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\EntityFramework.SqlServer.xml
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Owin.xml
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Owin.Security.xml
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.ApplicationInsights.xml
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.AI.Web.xml
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\System.Web.Helpers.resources.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\System.Web.Mvc.resources.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\System.Web.Optimization.resources.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\System.Web.Razor.resources.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\System.Web.WebPages.resources.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\EntityFramework.resources.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\EntityFramework.SqlServer.resources.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\Microsoft.Owin.resources.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\Microsoft.Owin.Security.resources.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\Microsoft.Owin.Security.Google.resources.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\obj\Debug\ProyectoRespaldo.csprojResolveAssemblyReference.cache
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\obj\Debug\ProyectoRespaldo.dll
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\obj\Debug\ProyectoRespaldo.pdb
+C:\Users\user01\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\GridMvc.dll
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\csc.exe
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\VBCSCompiler.exe
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\ApplicationInsights.config
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\csc.exe.config
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\csc.rsp
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\csi.exe
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\csi.rsp
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\System.AppContext.dll
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\vbc.exe
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\vbc.exe.config
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\vbc.rsp
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\ProyectoRespaldo.dll.config
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\ProyectoRespaldo.dll
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\ProyectoRespaldo.pdb
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Antlr3.Runtime.dll
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\DataTables.AspNet.Core.dll
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\DataTables.AspNet.Mvc5.dll
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\EntityFramework.dll
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\EntityFramework.SqlServer.dll
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\GridMvc.dll
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.AI.Web.dll
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.ApplicationInsights.dll
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Owin.dll
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Owin.Security.dll
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Newtonsoft.Json.dll
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Owin.dll
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\System.Web.Helpers.dll
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\System.Web.Mvc.dll
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\System.Web.Optimization.dll
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\System.Web.Razor.dll
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\System.Web.WebPages.Deployment.dll
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\System.Web.WebPages.dll
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\System.Web.WebPages.Razor.dll
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\WebGrease.dll
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Newtonsoft.Json.xml
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\System.Web.Helpers.xml
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\System.Web.Mvc.xml
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\System.Web.Optimization.xml
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\System.Web.Razor.xml
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\System.Web.WebPages.xml
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\System.Web.WebPages.Deployment.xml
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\System.Web.WebPages.Razor.xml
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Antlr3.Runtime.pdb
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\EntityFramework.xml
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\EntityFramework.SqlServer.xml
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Owin.xml
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Owin.Security.xml
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.ApplicationInsights.xml
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\Microsoft.AI.Web.xml
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\System.Web.Helpers.resources.dll
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\System.Web.Mvc.resources.dll
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\System.Web.Optimization.resources.dll
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\System.Web.Razor.resources.dll
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\System.Web.WebPages.resources.dll
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\EntityFramework.resources.dll
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\EntityFramework.SqlServer.resources.dll
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\Microsoft.Owin.resources.dll
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\Microsoft.Owin.Security.resources.dll
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\Microsoft.Owin.Security.Google.resources.dll
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\obj\Debug\ProyectoRespaldo.dll
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\obj\Debug\ProyectoRespaldo.pdb
+C:\Users\masther\Source\Repos\Proyecto_Respaldo4\ProyectoRespaldo -plantilla\ProyectoRespaldo\obj\Debug\ProyectoRespaldo.csprojResolveAssemblyReference.cache

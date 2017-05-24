@@ -1,0 +1,81 @@
+﻿@model IEnumerable < ProyectoRespaldo.Models.Informacion>
+@{
+    ViewBag.Title = "Index_MVirtual";
+}
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+
+<h1>Máquinas Virtuales</h1><br />
+
+@Html.ActionLink("Asignación de Políticas", "AsignPolitica", "Politica")
+<div class="dt-buttons" align="right" >
+    <button id="button" class="btn btn-primary">Crear Grupo</button>
+</div><br />
+
+    <table id="example" class="display dataTable" border="0" cellspacing="0">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.nombre)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.apellido)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.edad)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.status)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.fecha_nac)
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.nombre)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.apellido)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.edad)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.status)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.fecha_nac)
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+
+    @section scripts
+{
+        @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/datatables")
+        <script type="text/javascript">
+
+            $(document).ready(function () {
+                var table = $('#example').DataTable();
+
+                $('#example tbody').on('click', 'tr', function () {
+                    $(this).toggleClass('selected');
+                });
+
+                $('#button').click(function () {
+                    alert(table.rows('.selected').data().length + ' row(s) selected');
+                    for (i = 0; i < table.rows('.selected').data().length; i++) {
+                        seletArray = table.rows('.selected').data()[i][0];
+                        alert(seletArray);
+                    }
+                });
+            });
+        </script>
+    }

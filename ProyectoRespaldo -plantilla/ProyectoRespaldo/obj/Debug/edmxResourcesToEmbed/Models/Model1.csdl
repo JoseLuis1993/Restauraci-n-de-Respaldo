@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="RespaldoModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="persona">
+    <Key>
+      <PropertyRef Name="id_Person" />
+    </Key>
+    <Property Name="id_Person" Type="Int32" Nullable="false" />
+    <Property Name="nombre" Type="String" MaxLength="100" FixedLength="true" Unicode="false" />
+    <Property Name="apellido" Type="String" MaxLength="100" FixedLength="true" Unicode="false" />
+  </EntityType>
+  <EntityContainer Name="RespaldoEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="persona" EntityType="Self.persona" />
+  </EntityContainer>
+</Schema>
