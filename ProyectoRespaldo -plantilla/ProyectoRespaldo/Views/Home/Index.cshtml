@@ -10,10 +10,12 @@
     <head>
         <meta name="viewport" content="width=device-width" />
         <link href="@Url.Content("~/Content/Gridmvc.css")" rel="stylesheet" />
+        <link href="~/Content/gridmvc.datepicker.css" rel="stylesheet" />
         <link href="@Url.Content("~/Content/bootstrap.min.css")" rel="stylesheet" />
         <link rel="stylesheet" href="~/Content/percircle.css">
         <script src="~/Scripts/jquery-1.10.2.min.js"></script>
         <script src="~/Scripts/gridmvc.js"></script>
+        <script src="~/Scripts/bootstrap-datepicker.min.js"></script>
         <script src="~/Scripts/percircle.js"></script>
         <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>  
     </head>
@@ -21,24 +23,23 @@
 <div class="jumbotron">
     <h1>Monitoreo</h1>
 </div>
- 
+
 <div>
 @Html.Grid(Model).Columns(columns =>
 {
 
 columns.Add(c => c.nombre).Titled("Nombre");
-columns.Add(c => c.fecha_nac).Titled("Fecha de Nac").Filterable(true)
+columns.Add(c => c.fecha_nac, "Date").Titled("Fecha de Nac")
                                     .SortInitialDirection(GridMvc.Sorting.GridSortDirection.Descending)
                                     .Format("{0:dd/MM/yyyy}");
 
 columns.Add(c => c.status).Titled("Estatus");
 columns.Add().Encoded(false)
              .Sanitized(false)
-             .SetWidth(3)
-             .RenderValueAs(d => @<div class="clearfix">
-                                            <div id="bluecircle" data-percent=@d.edad class="dark"></div>
+             .RenderValueAs(d => @<div class="clearfix" >
+                                            <div id="bluecircle" data-percent=@d.edad class="small blue"></div>
 
-                                          </div>);
+                                          </div>).Titled(" % Porcentaje");
         }).WithPaging(3).Sortable().Filterable().WithMultipleFilters().Selectable(false)
 </div>
 

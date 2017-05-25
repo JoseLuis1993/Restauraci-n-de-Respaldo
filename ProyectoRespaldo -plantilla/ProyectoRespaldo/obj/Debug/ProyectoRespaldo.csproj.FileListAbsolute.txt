@@ -699,4 +699,3 @@ C:\Users\user01\Source\Repos\Restauraci-n-de-Respaldo\ProyectoRespaldo -plantill
 C:\Users\user01\Source\Repos\Restauraci-n-de-Respaldo\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
 C:\Users\user01\Source\Repos\Restauraci-n-de-Respaldo\ProyectoRespaldo -plantilla\ProyectoRespaldo\obj\Debug\ProyectoRespaldo.dll
 C:\Users\user01\Source\Repos\Restauraci-n-de-Respaldo\ProyectoRespaldo -plantilla\ProyectoRespaldo\obj\Debug\ProyectoRespaldo.pdb
-C:\Users\user01\Source\Repos\Restauraci-n-de-Respaldo\ProyectoRespaldo -plantilla\ProyectoRespaldo\obj\Debug\ProyectoRespaldo.csprojResolveAssemblyReference.cache
