@@ -33,6 +33,11 @@ namespace ProyectoRespaldo.Controllers
             return View();
         }
 
+        public ActionResult Create_Politica()
+        {
+            return View();
+        }
+
         // GET: Politica/Details/5
         public ActionResult Details(int id)
         {

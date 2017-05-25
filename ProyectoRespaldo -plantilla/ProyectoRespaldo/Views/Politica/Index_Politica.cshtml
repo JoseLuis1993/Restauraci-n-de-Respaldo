@@ -15,6 +15,10 @@
         <script src="~/Scripts/gridmvc.js"></script>
     </head>
     <body>
+        <div align="right"><u>
+            @Html.ActionLink("Crear Política", "Create_Politica", "Politica")
+        </u>
+        </div><br />
         <div>
             @Html.Grid(Model).Columns(columns =>
             {

@@ -1,0 +1,70 @@
+﻿@model IEnumerable<ProyectoRespaldo.Models.Informacion>
+@using GridMvc.Html
+@{
+    ViewBag.Title = "CreaPolitica";
+}
+
+<div >
+    <h1>Creación de política</h1>
+    <br />
+
+    <form action="" method="get" name="Crea_politica">
+
+        <table border="0" class="table">
+            <tr>
+                <td align="right" class = "col-md-2 control-label">Nombre de la política:&nbsp;</td>
+                <td><input type="text" name="" /></td>
+            </tr>
+            <tr>
+                <td align="right">Selecciona la fecha de inicio:&nbsp;</td>
+                <td><input class="datefield" data-val="true" data-val-required="Date is required" id="ReleaseDate" name="ReleaseDate" type="date" value="1/01/2017" /></td>
+            </tr>
+            <tr>
+                <td align="right">Selecciona la fecha de fin:&nbsp;</td>
+                <td><input class="datefield" data-val="true" data-val-required="Date is required" id="ReleaseDate" name="ReleaseDate" type="date" value="1/01/2017" /></td>
+            </tr>
+            <tr>
+                <td align="right">Hora inicio:&nbsp;</td>
+                <td><input class="datetimepicker" type="time" name="Horario" /></td>
+            </tr>
+            <tr>
+                <td align="right">Hora fin:&nbsp;</td>
+                <td><input class="datetimepicker" type="time" name="Horario" /></td>
+            </tr>
+            <tr>
+                <td align="right">Ruta de almacenamiento:&nbsp;</td>
+                <td><input class="PhysicalApplicationPath" type="search" name="ruta" /></td>
+            </tr>
+            <tr>
+                <td align="right">No. de respaldos:&nbsp;</td>
+                <td><input class="PhysicalApplicationPath" type="number" min="0" name="n_respaldo" /></td>
+            </tr>
+            <tr>
+                <td align="right">Frecuencia de semanas:&nbsp;</td>
+                <td><input class="PhysicalApplicationPath" type="number" min="0" name="frecuncia" /></td>
+            </tr>
+            <tr>
+                <td align="right">Dìas</td>
+                <td>
+                    L<input type="checkbox" value="L" />&nbsp;
+                    M<input type="checkbox" value="M" />&nbsp;
+                    X<input type="checkbox" value="X" />&nbsp;
+                    J<input type="checkbox" value="J" />&nbsp;
+                    V<input type="checkbox" value="V" />&nbsp;
+                    S<input type="checkbox" value="S" />&nbsp;
+                    D<input type="checkbox" value="D" />&nbsp;
+                </td>
+            </tr>
+            <tr>
+                <td align="right">
+                    <input type="checkbox" />
+                </td>
+                <td>
+                    <p>¿Desea incluir está política por default?</p>
+                </td>
+            </tr>
+        </table>
+    </form>
+    <button class="btn btn-primary btn-lg">CREAR &raquo; </button>
+</div>
+

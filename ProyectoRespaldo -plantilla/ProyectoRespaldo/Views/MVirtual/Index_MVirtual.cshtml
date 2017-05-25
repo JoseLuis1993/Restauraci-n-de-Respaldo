@@ -5,12 +5,11 @@
 <script src="~/Scripts/jquery-1.10.2.min.js"></script>
 
 <h1>Máquinas Virtuales</h1><br />
-
-@Html.ActionLink("Asignación de Políticas", "AsignPolitica", "Politica")
-<div class="dt-buttons" align="right" >
-    <button id="button" class="btn btn-primary">Crear Grupo</button>
-</div><br />
-
+   
+    <div class="dt-buttons" align="right">
+        @Html.ActionLink("Asignar de Políticas", "AsignPolitica", "Politica", null, new { @class = "btn btn-primary btn-large", id = "button" })
+    </div>
+    <br />
     <table id="example" class="display dataTable" border="0" cellspacing="0">
         <thead>
             <tr>

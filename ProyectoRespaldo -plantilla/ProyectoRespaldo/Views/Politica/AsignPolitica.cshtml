@@ -2,15 +2,32 @@
 @if (Request.IsAuthenticated)
 {
 
-{
-    ViewBag.Title = "AsignPolitica";
-}
-
-<link href="@Url.Content("~/Content/bootstrap.min.css")" rel="stylesheet" />
-        <h1>Asignar Polìtica</h1><br />
+    {
+        ViewBag.Title = "AsignPolitica";
+    }
+    <link href="@Url.Content("~/Content/bootstrap.min.css")" rel="stylesheet" />
+    <h1>Asignar Política</h1><br />
         <div class="row">
-            <div class="col-xs-4">
-                <select name="from[]" id="lstview" class="form-control" size="10" multiple="multiple">
+            <div class="col-xs-3">
+                <h4>Máquinas seleccionadas</h4>
+                <br />
+                <div class="list-group" style="overflow:scroll; height:300px;">
+                    <p class="list-group-item"> <img src="@Url.Content("~/Content/Computer.png")" width="30" height="30" /> Máquina 1 </p>
+                    <p class="list-group-item"> <img src="@Url.Content("~/Content/Computer.png")" width="30" height="30" /> Máquina 2</p>
+                    <p class="list-group-item"> <img src="@Url.Content("~/Content/Computer.png")" width="30" height="30" /> Máquina 3</p>
+                    <p class="list-group-item"> <img src="@Url.Content("~/Content/Computer.png")" width="30" height="30" /> Máquina 4</p>
+                    <p class="list-group-item"> <img src="@Url.Content("~/Content/Computer.png")" width="30" height="30" /> Máquina 5</p>
+                    <p class="list-group-item"> <img src="@Url.Content("~/Content/Computer.png")" width="30" height="30" /> Máquina 6</p>
+                    <p class="list-group-item"> <img src="@Url.Content("~/Content/Computer.png")" width="30" height="30" /> Máquina 7</p>
+                    <p class="list-group-item"> <img src="@Url.Content("~/Content/Computer.png")" width="30" height="30" /> Máquina 8</p>
+                    <p class="list-group-item"> <img src="@Url.Content("~/Content/Computer.png")" width="30" height="30" /> Máquina 9</p>
+                </div>
+            </div>
+
+            <div class="col-xs-3">
+                <h4>Políticas disponibles</h4>
+                <br />
+                <select name="from[]" id="lstview" class="form-control" size="15" multiple="multiple">
                     <option value="HTML">HTML2</option>
                     <option value="2">CSS</option>
                     <option value="CSS">CSS3</option>
@@ -27,36 +44,36 @@
                 </select>
             </div>
 
-            <div class="col-xs-4">
-                <button type="button" id="lstview_undo" class="btn btn-danger btn-block">undo</button>
+            <div class="col-xs-3">
+                <br /> <br /> <br /> <br />
+                <button type="button" id="lstview_undo" class="btn btn-danger btn-block">Deshacer</button>
                 <button type="button" id="lstview_rightAll" class="btn btn-default btn-block"><i class="glyphicon glyphicon-forward"></i></button>
                 <button type="button" id="lstview_rightSelected" class="btn btn-default btn-block"><i class="glyphicon glyphicon-chevron-right"></i></button>
                 <button type="button" id="lstview_leftSelected" class="btn btn-default btn-block"><i class="glyphicon glyphicon-chevron-left"></i></button>
                 <button type="button" id="lstview_leftAll" class="btn btn-default btn-block"><i class="glyphicon glyphicon-backward"></i></button>
-                <button type="button" id="lstview_redo" class="btn btn-warning btn-block">redo</button>
+                <button type="button" id="lstview_redo" class="btn btn-warning btn-block">Rehacer</button>
             </div>
 
-            <div class="col-xs-4">
-                <select name="to[]" id="lstview_to" class="form-control" size="10" multiple="multiple"></select>
+            <div class="col-xs-3">
+                <h4>Políticas asignadas</h4>
+                <br />
+                <select name="to[]" id="lstview_to" class="form-control" size="15" multiple="multiple"></select>
             </div>
         </div>
-
-
-
-@section scripts
+            @section scripts
 {
-@Scripts.Render("~/bundles/jquery")
-@Scripts.Render("~/bundles/datatables")
-    <script type="text/javascript">
-            jQuery(document).ready(function ($) {
-                $('#lstview').multiselect({
-                    search: {
-                        left: '<input type="text" name="q" class="form-control" placeholder="Search..." />',
-                        right: '<input type="text" name="q" class="form-control" placeholder="Search..." />',
-                    }
-                });
-            });
-</script>
-}
+                @Scripts.Render("~/bundles/jquery")
+                @Scripts.Render("~/bundles/datatables")
+                <script type="text/javascript">
+                    jQuery(document).ready(function ($) {
+                        $('#lstview').multiselect({
+                            search: {
+                                left: '<input type="text" name="q" class="form-control" placeholder="Search..." />',
+                                right: '<input type="text" name="q" class="form-control" placeholder="Search..." />',
+                            }
+                        });
+                    });
+                </script>
+            }
 
-    }
+}
