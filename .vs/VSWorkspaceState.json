@@ -1,8 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\ProyectoRespaldo -plantilla"
+    "\\ProyectoRespaldo -plantilla",
+    "\\ProyectoRespaldo -plantilla\\ProyectoRespaldo",
+    "\\ProyectoRespaldo -plantilla\\ProyectoRespaldo\\Controllers",
+    "\\ProyectoRespaldo -plantilla\\ProyectoRespaldo\\Views",
+    "\\ProyectoRespaldo -plantilla\\ProyectoRespaldo\\Views\\MVirtual"
   ],
-  "SelectedNode": "\\ProyectoRespaldo -plantilla\\ProyectoRespaldo.sln",
+  "SelectedNode": "\\ProyectoRespaldo -plantilla\\ProyectoRespaldo\\Controllers",
   "PreviewInSolutionExplorer": false
 }

@@ -23,7 +23,7 @@ namespace ProyectoRespaldo.Models
     
         public int id_servidor { get; set; }
         public string nombre { get; set; }
-        public Nullable<int> direccion_ip { get; set; }
+        public string direccion_ip { get; set; }
         public string tipo { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]

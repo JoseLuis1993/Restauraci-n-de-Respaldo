@@ -1,4 +1,4 @@
-﻿@model IEnumerable < ProyectoRespaldo.Models.Informacion>
+﻿@model IEnumerable<ProyectoRespaldo.Models.maquina_virtual>
 @{
     ViewBag.Title = "Index_MVirtual";
 }
@@ -17,16 +17,16 @@
                     @Html.DisplayNameFor(model => model.nombre)
                 </th>
                 <th>
-                    @Html.DisplayNameFor(model => model.apellido)
+                    @Html.DisplayNameFor(model => model.estatus)
                 </th>
                 <th>
-                    @Html.DisplayNameFor(model => model.edad)
+                    @Html.DisplayNameFor(model => model.direccion_ip)
                 </th>
                 <th>
-                    @Html.DisplayNameFor(model => model.status)
+                    @Html.DisplayNameFor(model => model.prioridad)
                 </th>
                 <th>
-                    @Html.DisplayNameFor(model => model.fecha_nac)
+                    Opciones
                 </th>
             </tr>
         </thead>
@@ -38,16 +38,16 @@
                         @Html.DisplayFor(modelItem => item.nombre)
                     </td>
                     <td>
-                        @Html.DisplayFor(modelItem => item.apellido)
+                        @Html.DisplayFor(modelItem => item.estatus)
                     </td>
                     <td>
-                        @Html.DisplayFor(modelItem => item.edad)
+                        @Html.DisplayFor(modelItem => item.direccion_ip)
                     </td>
                     <td>
-                        @Html.DisplayFor(modelItem => item.status)
+                        @Html.DisplayFor(modelItem => item.prioridad)
                     </td>
                     <td>
-                        @Html.DisplayFor(modelItem => item.fecha_nac)
+                        @Html.ActionLink("Detalles", "Details", new { id = item.Id_maquina })
                     </td>
                 </tr>
             }

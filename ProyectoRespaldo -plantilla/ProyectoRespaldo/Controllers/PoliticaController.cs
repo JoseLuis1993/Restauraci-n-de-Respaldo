@@ -11,7 +11,7 @@ namespace ProyectoRespaldo.Controllers
 {
     public class PoliticaController : Controller
     {
-        private RespaldosEntities db = new RespaldosEntities();
+        private RespaldosEntities1 db = new RespaldosEntities1();
         
         // GET: Politica
         public ActionResult Index_Politica()
@@ -24,27 +24,6 @@ namespace ProyectoRespaldo.Controllers
             return View();
         }
 
-        public ActionResult Create_Politica()
-        {
-            return View();
-        }
-
-        // GET: politicas/Details/5
-        public ActionResult Details(long? id)
-        {
-            if (id == null)
-            {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            }
-            politica politica = db.politica.Find(id);
-            if (politica == null)
-            {
-                return HttpNotFound();
-            }
-            return View(politica);
-        }
-
-        // GET: politicas/Create
         public ActionResult Create()
         {
             return View();
@@ -61,7 +40,23 @@ namespace ProyectoRespaldo.Controllers
             {
                 db.politica.Add(politica);
                 db.SaveChanges();
-                return RedirectToAction("Index");
+                return RedirectToAction("Index_Politica");
+            }
+
+            return View(politica);
+        }
+
+        // GET: politicas/Details/5
+        public ActionResult Details(long? id)
+        {
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+            politica politica = db.politica.Find(id);
+            if (politica == null)
+            {
+                return HttpNotFound();
             }
 
             return View(politica);
@@ -93,7 +88,7 @@ namespace ProyectoRespaldo.Controllers
             {
                 db.Entry(politica).State = EntityState.Modified;
                 db.SaveChanges();
-                return RedirectToAction("Index");
+                return RedirectToAction("Index_Politica");
             }
             return View(politica);
         }
@@ -121,7 +116,7 @@ namespace ProyectoRespaldo.Controllers
             politica politica = db.politica.Find(id);
             db.politica.Remove(politica);
             db.SaveChanges();
-            return RedirectToAction("Index");
+            return RedirectToAction("Index_Politica");
         }
 
         protected override void Dispose(bool disposing)

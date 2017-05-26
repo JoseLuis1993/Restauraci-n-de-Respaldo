@@ -1,0 +1,57 @@
+﻿@model ProyectoRespaldo.Models.maquina_virtual
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Detalles</h2>
+
+<div>
+    <h4>@Html.DisplayFor(model => model.nombre)</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Nombre
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nombre)
+        </dd>
+
+        <dt>
+            Estatus
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.estatus)
+        </dd>
+
+        <dt>
+            Direcciòn IP
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.direccion_ip)
+        </dd>
+
+        <dt>
+            Prioridad
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.prioridad)
+        </dd>
+
+        <dt>
+            Servidor al cual pertenece
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.servidor.nombre)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Regresar", "Index_MVirtual")
+</p>

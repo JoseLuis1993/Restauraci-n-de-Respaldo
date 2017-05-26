@@ -4,15 +4,15 @@
     ViewBag.Title = "Delete";
 }
 
-<h2>Delete</h2>
+<h2>Eliminar</h2>
 
-<h3>Are you sure you want to delete this?</h3>
+<h3>¿Esta seguro que desea eliminar el siguiente registro?</h3>
 <div>
-    <h4>politica</h4>
+    <h4>@Html.DisplayFor(model => model.nombre)</h4>
     <hr />
     <dl class="dl-horizontal">
         <dt>
-            @Html.DisplayNameFor(model => model.nombre)
+           Nombre
         </dt>
 
         <dd>
@@ -20,7 +20,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.fecha_fin)
+            Fecha de fin
         </dt>
 
         <dd>
@@ -28,7 +28,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.hora_inicio)
+            Hora de inicio
         </dt>
 
         <dd>
@@ -36,7 +36,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.hora_fin)
+            Hora de fin
         </dt>
 
         <dd>
@@ -44,7 +44,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.ruta_almacenamiento)
+            Ruta de almacenamiento
         </dt>
 
         <dd>
@@ -52,7 +52,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.frecuencia_sem)
+            Frecuencia semanal
         </dt>
 
         <dd>
@@ -60,7 +60,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.num_respaldos)
+            Número de respaldos
         </dt>
 
         <dd>
@@ -68,7 +68,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.dias)
+            Días
         </dt>
 
         <dd>
@@ -76,7 +76,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.politica_default)
+            ¿Política por default?
         </dt>
 
         <dd>
@@ -89,8 +89,8 @@
         @Html.AntiForgeryToken()
 
         <div class="form-actions no-color">
-            <input type="submit" value="Delete" class="btn btn-default" /> |
-            @Html.ActionLink("Back to List", "Index")
+            <input type="submit" value="Eliminar" class="btn btn-default" /> |
+            @Html.ActionLink("Regresar", "Index_Politica")
         </div>
     }
 </div>

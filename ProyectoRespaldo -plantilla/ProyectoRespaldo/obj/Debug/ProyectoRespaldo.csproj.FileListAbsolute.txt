@@ -817,3 +817,4 @@ C:\Users\e00011000\Documents\Visual Studio 2017\Projects\Restauraci-n-de-Respald
 C:\Users\e00011000\Documents\Visual Studio 2017\Projects\Restauraci-n-de-Respaldo\ProyectoRespaldo -plantilla\ProyectoRespaldo\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
 C:\Users\e00011000\Documents\Visual Studio 2017\Projects\Restauraci-n-de-Respaldo\ProyectoRespaldo -plantilla\ProyectoRespaldo\obj\Debug\ProyectoRespaldo.dll
 C:\Users\e00011000\Documents\Visual Studio 2017\Projects\Restauraci-n-de-Respaldo\ProyectoRespaldo -plantilla\ProyectoRespaldo\obj\Debug\ProyectoRespaldo.pdb
+C:\Users\e00011000\Documents\Visual Studio 2017\Projects\Restauraci-n-de-Respaldo\ProyectoRespaldo -plantilla\ProyectoRespaldo\obj\Debug\ProyectoRespaldo.csprojResolveAssemblyReference.cache

@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="RespaldosModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'Respaldos.dbo.asignacion_politica' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="asignacion_politica">
+    <Key>
+      <PropertyRef Name="id_maquina" />
+      <PropertyRef Name="id_política" />
+    </Key>
+    <Property Name="id_maquina" Type="bigint" Nullable="false" />
+    <Property Name="id_política" Type="bigint" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Bitacora">
+    <Key>
+      <PropertyRef Name="id_respaldo" />
+    </Key>
+    <Property Name="id_respaldo" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="id_maquina" Type="bigint" Nullable="false" />
+    <Property Name="hora_inicio" Type="datetime" />
+    <Property Name="hora_fin" Type="datetime" />
+    <Property Name="fecha_respaldo" Type="int" />
+    <Property Name="nombre_archivo" Type="varchar" MaxLength="50" />
+    <Property Name="ruta_almacenamiento" Type="int" />
+    <Property Name="estado" Type="binary" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="Comando">
+    <Key>
+      <PropertyRef Name="Id_comando" />
+    </Key>
+    <Property Name="Id_comando" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" MaxLength="50" />
+    <Property Name="Opciones" Type="varchar" MaxLength="150" />
+    <Property Name="uso" Type="varchar" MaxLength="30" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'Respaldos.dbo.comando_servidor' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="comando_servidor">
+    <Key>
+      <PropertyRef Name="id_servidor" />
+      <PropertyRef Name="id_comando" />
+    </Key>
+    <Property Name="id_servidor" Type="int" Nullable="false" />
+    <Property Name="id_comando" Type="bigint" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Grupo">
+    <Key>
+      <PropertyRef Name="id_grupo" />
+    </Key>
+    <Property Name="id_grupo" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6013: La tabla o vista 'Respaldos.dbo.Grupo_maquina' no tiene definida una clave principal y no es posible inferir ninguna clave principal válida. Esta tabla o vista se ha excluido. Para usar la entidad, necesitará revisar el esquema, agregar las claves correctas y quitar sus comentarios.
+        <EntityType Name="Grupo_maquina">
+          <Property Name="id_grupo" Type="bigint" />
+          <Property Name="id_maquina" Type="bigint" />
+        </EntityType>-->
+  <!--Errores durante la generación:
+advertencia 6013: La tabla o vista 'Respaldos.dbo.Grupo_politica' no tiene definida una clave principal y no es posible inferir ninguna clave principal válida. Esta tabla o vista se ha excluido. Para usar la entidad, necesitará revisar el esquema, agregar las claves correctas y quitar sus comentarios.
+        <EntityType Name="Grupo_politica">
+          <Property Name="id_grupo" Type="bigint" />
+          <Property Name="id_politica" Type="bigint" />
+        </EntityType>-->
+  <EntityType Name="maquina_virtual">
+    <Key>
+      <PropertyRef Name="Id_maquina" />
+    </Key>
+    <Property Name="Id_maquina" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="id_servidor" Type="int" Nullable="false" />
+    <Property Name="nombre" Type="varchar" MaxLength="100" />
+    <Property Name="estatus" Type="varchar" MaxLength="20" />
+    <Property Name="direccion_ip" Type="varchar" MaxLength="50" />
+    <Property Name="prioridad" Type="int" />
+  </EntityType>
+  <EntityType Name="politica">
+    <Key>
+      <PropertyRef Name="id_politica" />
+    </Key>
+    <Property Name="id_politica" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre" Type="varchar" MaxLength="50" />
+    <Property Name="fecha_fin" Type="date" />
+    <Property Name="hora_inicio" Type="time" Precision="7" />
+    <Property Name="hora_fin" Type="time" Precision="7" />
+    <Property Name="ruta_almacenamiento" Type="varchar" MaxLength="50" />
+    <Property Name="frecuencia_sem" Type="int" />
+    <Property Name="num_respaldos" Type="int" />
+    <Property Name="dias" Type="varchar" MaxLength="50" />
+    <Property Name="politica_default" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="servidor">
+    <Key>
+      <PropertyRef Name="id_servidor" />
+    </Key>
+    <Property Name="id_servidor" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre" Type="varchar" MaxLength="50" />
+    <Property Name="direccion_ip" Type="varchar" MaxLength="50" />
+    <Property Name="tipo" Type="varchar" MaxLength="30" />
+  </EntityType>
+  <Association Name="fk_comand_servidor">
+    <End Role="Comando" Type="Self.Comando" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="comando_servidor" Type="Self.comando_servidor" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Comando">
+        <PropertyRef Name="Id_comando" />
+      </Principal>
+      <Dependent Role="comando_servidor">
+        <PropertyRef Name="id_comando" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <!--Errores durante la generación:
+error 6004: Una relación hace referencia a la tabla 'Respaldos.dbo.Grupo_maquina', pero no se encuentra la tabla.
+        <Association Name="fk_grupo_maquina" />-->
+  <!--Errores durante la generación:
+error 6004: Una relación hace referencia a la tabla 'Respaldos.dbo.Grupo_politica', pero no se encuentra la tabla.
+        <Association Name="fk_grupo_politica" />-->
+  <!--Errores durante la generación:
+error 6004: Una relación hace referencia a la tabla 'Respaldos.dbo.Grupo_maquina', pero no se encuentra la tabla.
+        <Association Name="fk_maquina_grupo" />-->
+  <Association Name="fk_maquinav_asigp">
+    <End Role="maquina_virtual" Type="Self.maquina_virtual" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="asignacion_politica" Type="Self.asignacion_politica" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="maquina_virtual">
+        <PropertyRef Name="Id_maquina" />
+      </Principal>
+      <Dependent Role="asignacion_politica">
+        <PropertyRef Name="id_maquina" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_maquinav_bitacora">
+    <End Role="maquina_virtual" Type="Self.maquina_virtual" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Bitacora" Type="Self.Bitacora" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="maquina_virtual">
+        <PropertyRef Name="Id_maquina" />
+      </Principal>
+      <Dependent Role="Bitacora">
+        <PropertyRef Name="id_maquina" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_politica_asignp">
+    <End Role="politica" Type="Self.politica" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="asignacion_politica" Type="Self.asignacion_politica" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="politica">
+        <PropertyRef Name="id_politica" />
+      </Principal>
+      <Dependent Role="asignacion_politica">
+        <PropertyRef Name="id_política" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <!--Errores durante la generación:
+error 6004: Una relación hace referencia a la tabla 'Respaldos.dbo.Grupo_politica', pero no se encuentra la tabla.
+        <Association Name="fk_politica_grupo" />-->
+  <Association Name="fk_servidor_comand">
+    <End Role="servidor" Type="Self.servidor" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="comando_servidor" Type="Self.comando_servidor" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="servidor">
+        <PropertyRef Name="id_servidor" />
+      </Principal>
+      <Dependent Role="comando_servidor">
+        <PropertyRef Name="id_servidor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_servidor_maquinav">
+    <End Role="servidor" Type="Self.servidor" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="maquina_virtual" Type="Self.maquina_virtual" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="servidor">
+        <PropertyRef Name="id_servidor" />
+      </Principal>
+      <Dependent Role="maquina_virtual">
+        <PropertyRef Name="id_servidor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="RespaldosModelStoreContainer">
+    <EntitySet Name="Bitacora" EntityType="Self.Bitacora" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Comando" EntityType="Self.Comando" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Grupo" EntityType="Self.Grupo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="maquina_virtual" EntityType="Self.maquina_virtual" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="politica" EntityType="Self.politica" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="servidor" EntityType="Self.servidor" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="asignacion_politica" EntityType="Self.asignacion_politica" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [asignacion_politica].[id_maquina] AS [id_maquina], 
+    [asignacion_politica].[id_política] AS [id_política]
+    FROM [dbo].[asignacion_politica] AS [asignacion_politica]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="comando_servidor" EntityType="Self.comando_servidor" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [comando_servidor].[id_servidor] AS [id_servidor], 
+    [comando_servidor].[id_comando] AS [id_comando]
+    FROM [dbo].[comando_servidor] AS [comando_servidor]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="fk_comand_servidor" Association="Self.fk_comand_servidor">
+      <End Role="Comando" EntitySet="Comando" />
+      <End Role="comando_servidor" EntitySet="comando_servidor" />
+    </AssociationSet>
+    <AssociationSet Name="fk_maquinav_asigp" Association="Self.fk_maquinav_asigp">
+      <End Role="maquina_virtual" EntitySet="maquina_virtual" />
+      <End Role="asignacion_politica" EntitySet="asignacion_politica" />
+    </AssociationSet>
+    <AssociationSet Name="fk_maquinav_bitacora" Association="Self.fk_maquinav_bitacora">
+      <End Role="maquina_virtual" EntitySet="maquina_virtual" />
+      <End Role="Bitacora" EntitySet="Bitacora" />
+    </AssociationSet>
+    <AssociationSet Name="fk_politica_asignp" Association="Self.fk_politica_asignp">
+      <End Role="politica" EntitySet="politica" />
+      <End Role="asignacion_politica" EntitySet="asignacion_politica" />
+    </AssociationSet>
+    <AssociationSet Name="fk_servidor_comand" Association="Self.fk_servidor_comand">
+      <End Role="servidor" EntitySet="servidor" />
+      <End Role="comando_servidor" EntitySet="comando_servidor" />
+    </AssociationSet>
+    <AssociationSet Name="fk_servidor_maquinav" Association="Self.fk_servidor_maquinav">
+      <End Role="servidor" EntitySet="servidor" />
+      <End Role="maquina_virtual" EntitySet="maquina_virtual" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
