@@ -4,28 +4,19 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using ProyectoRespaldo.Models;
+using System.Net;
+using System.Data.Entity;
 
 namespace ProyectoRespaldo.Controllers
 {
     public class PoliticaController : Controller
     {
-        List<Informacion> datos = new List<Informacion>();
-
-        public PoliticaController()
-        {
-            datos.Add(new Informacion("Jose", "Rios2", 19, true, DateTime.Now.Date));
-            datos.Add(new Informacion("Josex", "Rios2", 25, true, DateTime.Now.Date));
-            datos.Add(new Informacion("Joset", "Rios3", 36, false, DateTime.Now.Date));
-            datos.Add(new Informacion("Joser", "Rios4", 47, true, DateTime.Now.Date));
-            datos.Add(new Informacion("Joset", "Rios4", 58, false, DateTime.Now.Date));
-            datos.Add(new Informacion("Joseq", "Rios5", 67, false, DateTime.Now.Date));
-
-        }
-
+        private RespaldosEntities db = new RespaldosEntities();
+        
         // GET: Politica
         public ActionResult Index_Politica()
         {
-            return View(datos);
+            return View(db.politica.ToList());
         }
 
         public ActionResult AsignPolitica()
@@ -38,76 +29,108 @@ namespace ProyectoRespaldo.Controllers
             return View();
         }
 
-        // GET: Politica/Details/5
-        public ActionResult Details(int id)
+        // GET: politicas/Details/5
+        public ActionResult Details(long? id)
         {
-            return View();
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+            politica politica = db.politica.Find(id);
+            if (politica == null)
+            {
+                return HttpNotFound();
+            }
+            return View(politica);
         }
 
-        // GET: Politica/Create
+        // GET: politicas/Create
         public ActionResult Create()
         {
             return View();
         }
 
-        // POST: Politica/Create
+        // POST: politicas/Create
+        // Para protegerse de ataques de publicación excesiva, habilite las propiedades específicas a las que desea enlazarse. Para obtener 
+        // más información vea https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
-        public ActionResult Create(FormCollection collection)
+        [ValidateAntiForgeryToken]
+        public ActionResult Create([Bind(Include = "id_politica,nombre,fecha_fin,hora_inicio,hora_fin,ruta_almacenamiento,frecuencia_sem,num_respaldos,dias,politica_default")] politica politica)
         {
-            try
+            if (ModelState.IsValid)
             {
-                // TODO: Add insert logic here
-
+                db.politica.Add(politica);
+                db.SaveChanges();
                 return RedirectToAction("Index");
             }
-            catch
+
+            return View(politica);
+        }
+
+        // GET: politicas/Edit/5
+        public ActionResult Edit(long? id)
+        {
+            if (id == null)
             {
-                return View();
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-        }
-
-        // GET: Politica/Edit/5
-        public ActionResult Edit(int id)
-        {
-            return View();
-        }
-
-        // POST: Politica/Edit/5
-        [HttpPost]
-        public ActionResult Edit(int id, FormCollection collection)
-        {
-            try
+            politica politica = db.politica.Find(id);
+            if (politica == null)
             {
-                // TODO: Add update logic here
+                return HttpNotFound();
+            }
+            return View(politica);
+        }
 
+        // POST: politicas/Edit/5
+        // Para protegerse de ataques de publicación excesiva, habilite las propiedades específicas a las que desea enlazarse. Para obtener 
+        // más información vea https://go.microsoft.com/fwlink/?LinkId=317598.
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Edit([Bind(Include = "id_politica,nombre,fecha_fin,hora_inicio,hora_fin,ruta_almacenamiento,frecuencia_sem,num_respaldos,dias,politica_default")] politica politica)
+        {
+            if (ModelState.IsValid)
+            {
+                db.Entry(politica).State = EntityState.Modified;
+                db.SaveChanges();
                 return RedirectToAction("Index");
             }
-            catch
-            {
-                return View();
-            }
+            return View(politica);
         }
 
-        // GET: Politica/Delete/5
-        public ActionResult Delete(int id)
+        // GET: politicas/Delete/5
+        public ActionResult Delete(long? id)
         {
-            return View();
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+            politica politica = db.politica.Find(id);
+            if (politica == null)
+            {
+                return HttpNotFound();
+            }
+            return View(politica);
         }
 
-        // POST: Politica/Delete/5
-        [HttpPost]
-        public ActionResult Delete(int id, FormCollection collection)
+        // POST: politicas/Delete/5
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public ActionResult DeleteConfirmed(long id)
         {
-            try
-            {
-                // TODO: Add delete logic here
+            politica politica = db.politica.Find(id);
+            db.politica.Remove(politica);
+            db.SaveChanges();
+            return RedirectToAction("Index");
+        }
 
-                return RedirectToAction("Index");
-            }
-            catch
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing)
             {
-                return View();
+                db.Dispose();
             }
+            base.Dispose(disposing);
         }
     }
 }

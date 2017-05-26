@@ -1,14 +1,128 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Schema Namespace="RespaldoModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
-  <EntityType Name="persona">
+<Schema Namespace="RespaldosModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Bitacora">
     <Key>
-      <PropertyRef Name="id_Person" />
+      <PropertyRef Name="id_respaldo" />
     </Key>
-    <Property Name="id_Person" Type="Int32" Nullable="false" />
-    <Property Name="nombre" Type="String" MaxLength="100" FixedLength="true" Unicode="false" />
-    <Property Name="apellido" Type="String" MaxLength="100" FixedLength="true" Unicode="false" />
+    <Property Name="id_respaldo" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_maquina" Type="Int64" Nullable="false" />
+    <Property Name="hora_inicio" Type="DateTime" Precision="3" />
+    <Property Name="hora_fin" Type="DateTime" Precision="3" />
+    <Property Name="fecha_respaldo" Type="Int32" />
+    <Property Name="nombre_archivo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ruta_almacenamiento" Type="Int32" />
+    <Property Name="estado" Type="Binary" MaxLength="1" FixedLength="true" />
+    <NavigationProperty Name="maquina_virtual" Relationship="Self.fk_maquinav_bitacora" FromRole="Bitacora" ToRole="maquina_virtual" />
   </EntityType>
-  <EntityContainer Name="RespaldoEntities" annotation:LazyLoadingEnabled="true">
-    <EntitySet Name="persona" EntityType="Self.persona" />
+  <EntityType Name="Comando">
+    <Key>
+      <PropertyRef Name="Id_comando" />
+    </Key>
+    <Property Name="Id_comando" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Opciones" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="uso" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="servidor" Relationship="Self.comando_servidor" FromRole="Comando" ToRole="servidor" />
+  </EntityType>
+  <EntityType Name="maquina_virtual">
+    <Key>
+      <PropertyRef Name="Id_maquina" />
+    </Key>
+    <Property Name="Id_maquina" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_servidor" Type="Int32" Nullable="false" />
+    <Property Name="nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="estatus" Type="Binary" MaxLength="1" FixedLength="true" />
+    <Property Name="direccion_ip" Type="Int32" />
+    <Property Name="prioridad" Type="Int32" />
+    <Property Name="grupo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Bitacora" Relationship="Self.fk_maquinav_bitacora" FromRole="maquina_virtual" ToRole="Bitacora" />
+    <NavigationProperty Name="servidor" Relationship="Self.fk_servidor_maquinav" FromRole="maquina_virtual" ToRole="servidor" />
+    <NavigationProperty Name="politica" Relationship="Self.asignacion_politica" FromRole="maquina_virtual" ToRole="politica" />
+  </EntityType>
+  <EntityType Name="politica">
+    <Key>
+      <PropertyRef Name="id_politica" />
+    </Key>
+    <Property Name="id_politica" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="fecha_fin" Type="DateTime" Precision="0" />
+    <Property Name="hora_inicio" Type="Time" Precision="7" />
+    <Property Name="hora_fin" Type="Time" Precision="7" />
+    <Property Name="ruta_almacenamiento" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="frecuencia_sem" Type="Int32" />
+    <Property Name="num_respaldos" Type="Int32" />
+    <Property Name="dias" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="politica_default" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="maquina_virtual" Relationship="Self.asignacion_politica" FromRole="politica" ToRole="maquina_virtual" />
+  </EntityType>
+  <EntityType Name="servidor">
+    <Key>
+      <PropertyRef Name="id_servidor" />
+    </Key>
+    <Property Name="id_servidor" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="direccion_ip" Type="Int32" />
+    <Property Name="tipo" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="maquina_virtual" Relationship="Self.fk_servidor_maquinav" FromRole="servidor" ToRole="maquina_virtual" />
+    <NavigationProperty Name="Comando" Relationship="Self.comando_servidor" FromRole="servidor" ToRole="Comando" />
+  </EntityType>
+  <Association Name="fk_maquinav_bitacora">
+    <End Role="maquina_virtual" Type="Self.maquina_virtual" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Bitacora" Type="Self.Bitacora" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="maquina_virtual">
+        <PropertyRef Name="Id_maquina" />
+      </Principal>
+      <Dependent Role="Bitacora">
+        <PropertyRef Name="id_maquina" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_servidor_maquinav">
+    <End Role="servidor" Type="Self.servidor" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="maquina_virtual" Type="Self.maquina_virtual" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="servidor">
+        <PropertyRef Name="id_servidor" />
+      </Principal>
+      <Dependent Role="maquina_virtual">
+        <PropertyRef Name="id_servidor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="asignacion_politica">
+    <End Role="maquina_virtual" Type="Self.maquina_virtual" Multiplicity="*" />
+    <End Role="politica" Type="Self.politica" Multiplicity="*" />
+  </Association>
+  <Association Name="comando_servidor">
+    <End Role="Comando" Type="Self.Comando" Multiplicity="*" />
+    <End Role="servidor" Type="Self.servidor" Multiplicity="*" />
+  </Association>
+  <EntityContainer Name="RespaldosEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Bitacora" EntityType="Self.Bitacora" />
+    <EntitySet Name="Comando" EntityType="Self.Comando" />
+    <EntitySet Name="maquina_virtual" EntityType="Self.maquina_virtual" />
+    <EntitySet Name="politica" EntityType="Self.politica" />
+    <EntitySet Name="servidor" EntityType="Self.servidor" />
+    <AssociationSet Name="fk_maquinav_bitacora" Association="Self.fk_maquinav_bitacora">
+      <End Role="maquina_virtual" EntitySet="maquina_virtual" />
+      <End Role="Bitacora" EntitySet="Bitacora" />
+    </AssociationSet>
+    <AssociationSet Name="fk_servidor_maquinav" Association="Self.fk_servidor_maquinav">
+      <End Role="servidor" EntitySet="servidor" />
+      <End Role="maquina_virtual" EntitySet="maquina_virtual" />
+    </AssociationSet>
+    <AssociationSet Name="asignacion_politica" Association="Self.asignacion_politica">
+      <End Role="maquina_virtual" EntitySet="maquina_virtual" />
+      <End Role="politica" EntitySet="politica" />
+    </AssociationSet>
+    <AssociationSet Name="comando_servidor" Association="Self.comando_servidor">
+      <End Role="Comando" EntitySet="Comando" />
+      <End Role="servidor" EntitySet="servidor" />
+    </AssociationSet>
   </EntityContainer>
 </Schema>
