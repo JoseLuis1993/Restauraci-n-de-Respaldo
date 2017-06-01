@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-  <EntityContainerMapping StorageEntityContainer="RespaldosModelStoreContainer" CdmEntityContainer="RespaldosEntities1">
+  <EntityContainerMapping StorageEntityContainer="RespaldosModelStoreContainer" CdmEntityContainer="RespaldosEntities">
     <EntitySetMapping Name="Bitacora">
       <EntityTypeMapping TypeName="RespaldosModel.Bitacora">
         <MappingFragment StoreEntitySet="Bitacora">
@@ -40,7 +40,6 @@
           <ScalarProperty Name="id_servidor" ColumnName="id_servidor" />
           <ScalarProperty Name="nombre" ColumnName="nombre" />
           <ScalarProperty Name="estatus" ColumnName="estatus" />
-          <ScalarProperty Name="direccion_ip" ColumnName="direccion_ip" />
           <ScalarProperty Name="prioridad" ColumnName="prioridad" />
         </MappingFragment>
       </EntityTypeMapping>
@@ -71,21 +70,15 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <AssociationSetMapping Name="asignacion_politica" TypeName="RespaldosModel.asignacion_politica" StoreEntitySet="asignacion_politica">
-      <EndProperty Name="maquina_virtual">
-        <ScalarProperty Name="Id_maquina" ColumnName="id_maquina" />
-      </EndProperty>
-      <EndProperty Name="politica">
-        <ScalarProperty Name="id_politica" ColumnName="id_política" />
-      </EndProperty>
-    </AssociationSetMapping>
-    <AssociationSetMapping Name="comando_servidor" TypeName="RespaldosModel.comando_servidor" StoreEntitySet="comando_servidor">
-      <EndProperty Name="Comando">
-        <ScalarProperty Name="Id_comando" ColumnName="id_comando" />
-      </EndProperty>
-      <EndProperty Name="servidor">
-        <ScalarProperty Name="id_servidor" ColumnName="id_servidor" />
-      </EndProperty>
-    </AssociationSetMapping>
+    <EntitySetMapping Name="Usuarios_SSH">
+      <EntityTypeMapping TypeName="RespaldosModel.Usuarios_SSH">
+        <MappingFragment StoreEntitySet="Usuarios_SSH">
+          <ScalarProperty Name="id_User" ColumnName="id_User" />
+          <ScalarProperty Name="id_servidor" ColumnName="id_servidor" />
+          <ScalarProperty Name="usuario" ColumnName="usuario" />
+          <ScalarProperty Name="password" ColumnName="password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
   </EntityContainerMapping>
 </Mapping>

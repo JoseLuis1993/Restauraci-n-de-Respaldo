@@ -6,24 +6,24 @@
 
 <h1>Máquinas Virtuales</h1><br />
    
-    <div class="dt-buttons" align="right">
-        @Html.ActionLink("Asignar de Políticas", "AsignPolitica", "Politica", null, new { @class = "btn btn-primary btn-large", id = "button" })
-    </div>
+<div align="right" class="dt-button">
+    <button id=button class="btn btn-primary ">Asignar Polìtica</button>
+</div>
     <br />
     <table id="example" class="display dataTable" border="0" cellspacing="0">
         <thead>
             <tr>
                 <th>
-                    @Html.DisplayNameFor(model => model.nombre)
+                    ID
                 </th>
                 <th>
-                    @Html.DisplayNameFor(model => model.estatus)
+                    Nombre
                 </th>
                 <th>
-                    @Html.DisplayNameFor(model => model.direccion_ip)
+                    Estatus
                 </th>
                 <th>
-                    @Html.DisplayNameFor(model => model.prioridad)
+                    Prioridad
                 </th>
                 <th>
                     Opciones
@@ -35,13 +35,13 @@
             {
                 <tr>
                     <td>
+                        @Html.DisplayFor(modelItem => item.Id_maquina)
+                    </td>
+                    <td>
                         @Html.DisplayFor(modelItem => item.nombre)
                     </td>
                     <td>
                         @Html.DisplayFor(modelItem => item.estatus)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.direccion_ip)
                     </td>
                     <td>
                         @Html.DisplayFor(modelItem => item.prioridad)
@@ -57,24 +57,28 @@
 
 @section scripts
 {
-        @Scripts.Render("~/bundles/jquery")
-        @Scripts.Render("~/bundles/datatables")
-        <script type="text/javascript">
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/datatables")
+    <script type="text/javascript">
 
             $(document).ready(function () {
                 var table = $('#example').DataTable();
-
+                var texto=[];
                 $('#example tbody').on('click', 'tr', function () {
                     $(this).toggleClass('selected');
                 });
 
                 $('#button').click(function () {
-                    alert(table.rows('.selected').data().length + ' row(s) selected');
+                   // alert(table.rows('.selected').data().length + ' row(s) selected');
                     for (i = 0; i < table.rows('.selected').data().length; i++) {
                         seletArray = table.rows('.selected').data()[i][0];
-                        alert(seletArray);
+                        texto.push(seletArray);
                     }
+                    //alert(texto);
+                    // location.href = '<%= Url.Action("Asignar de Políticas", "AsignPolitica", "Politica")'
+                    window.location = '@Url.Action( "AsignPolitica", "Politica")' + '?theName=' + encodeURIComponent(texto);
+
                 });
             });
-        </script>
-    }
+    </script>
+}

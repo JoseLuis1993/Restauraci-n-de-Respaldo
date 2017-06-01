@@ -10,10 +10,12 @@
 <html>
     <head>
         <meta name="viewport" content="width=device-width" />
+        <link href="~/Content/gridmvc.datepicker.css" rel="stylesheet" />
         <link href="@Url.Content("~/Content/Gridmvc.css")" rel="stylesheet" />
         <link href="@Url.Content("~/Content/bootstrap.min.css")" rel="stylesheet" />
         <script src="~/Scripts/jquery-1.10.2.min.js"></script>
         <script src="~/Scripts/gridmvc.js"></script>
+        <script src="~/Scripts/bootstrap-datepicker.min.js"></script>
     </head>
     <body>
         <div align="right"><u>
@@ -22,23 +24,26 @@
         </div><br />
         <div>
             @Html.Grid(Model).Columns(columns =>
-            {
-               columns.Add(c => c.nombre).Titled("Nombre");
-               columns.Add(c => c.fecha_fin).Titled("Fecha de fin")
-                                            .SortInitialDirection(GridMvc.Sorting.GridSortDirection.Descending)
-                                            .Format("{0:dd/MM/yyyy}");
-               columns.Add(c => c.hora_inicio).Titled("Hora de inicio");
-               columns.Add(c => c.hora_fin).Titled("Hora de fin");
-               columns.Add(c => c.dias).Titled("Dìas");   
+       {
+           columns.Add(c => c.nombre).Titled("Nombre")
+                                     .Filterable(true);
+           columns.Add(c => c.fecha_fin).Titled("Fecha de fin")
+                                        .SortInitialDirection(GridMvc.Sorting.GridSortDirection.Descending)
+                                        .Format("{0:dd/MM/yyyy}")
+                                        .Filterable(true);
+           columns.Add(c => c.hora_inicio).Titled("Hora de inicio").Format("{0:hh\\:mm\\:ss}");
+            columns.Add(c => c.hora_fin).Titled("Hora de fin");
+            columns.Add(c => c.dias).Titled("Dìas")
+           .Filterable(true);
 
-               columns.Add()
-                   .Titled("Opciones")
-                   .Encoded(false)
-                   .Sanitized(false)
-                   .SetWidth(180)
-                   .RenderValueAs(d => @<b> @Html.ActionLink("Editar", "Edit", new { id = d.id_politica }) | @Html.ActionLink("Delete", "Delete", new { id = d.id_politica }) | @Html.ActionLink("Detalles", "Details", new { id = d.id_politica})</b>);
+            columns.Add()
+                .Titled("Opciones")
+                .Encoded(false)
+                .Sanitized(false)
+                .SetWidth(180)
+                .RenderValueAs(d => @<b> @Html.ActionLink("Editar", "Edit", new { id = d.id_politica }) | @Html.ActionLink("Delete", "Delete", new { id = d.id_politica }) | @Html.ActionLink("Detalles", "Details", new { id = d.id_politica})</b>);
 
-            }).WithPaging(5).Sortable().Filterable().WithMultipleFilters()
+            }).WithPaging(10).Sortable().WithMultipleFilters()
         </div>
     </body>
 </html>

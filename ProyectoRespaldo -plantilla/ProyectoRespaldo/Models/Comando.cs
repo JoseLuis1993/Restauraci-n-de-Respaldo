@@ -14,18 +14,9 @@ namespace ProyectoRespaldo.Models
     
     public partial class Comando
     {
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public Comando()
-        {
-            this.servidor = new HashSet<servidor>();
-        }
-    
         public long Id_comando { get; set; }
         public string Nombre { get; set; }
         public string Opciones { get; set; }
         public string uso { get; set; }
-    
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<servidor> servidor { get; set; }
     }
 }

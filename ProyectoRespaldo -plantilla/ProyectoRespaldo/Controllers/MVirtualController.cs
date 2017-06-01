@@ -12,7 +12,7 @@ namespace ProyectoRespaldo.Controllers
 {
     public class MVirtualController : Controller
     {
-        private RespaldosEntities1 db = new RespaldosEntities1();
+        private RespaldosEntities db = new RespaldosEntities();
         
 
         // GET: MVirtual

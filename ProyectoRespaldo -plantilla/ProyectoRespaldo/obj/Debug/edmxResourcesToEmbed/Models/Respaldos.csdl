@@ -22,7 +22,6 @@
     <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
     <Property Name="Opciones" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
     <Property Name="uso" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
-    <NavigationProperty Name="servidor" Relationship="Self.comando_servidor" FromRole="Comando" ToRole="servidor" />
   </EntityType>
   <EntityType Name="Grupo">
     <Key>
@@ -39,11 +38,9 @@
     <Property Name="id_servidor" Type="Int32" Nullable="false" />
     <Property Name="nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
     <Property Name="estatus" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
-    <Property Name="direccion_ip" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
     <Property Name="prioridad" Type="Int32" />
     <NavigationProperty Name="Bitacora" Relationship="Self.fk_maquinav_bitacora" FromRole="maquina_virtual" ToRole="Bitacora" />
     <NavigationProperty Name="servidor" Relationship="Self.fk_servidor_maquinav" FromRole="maquina_virtual" ToRole="servidor" />
-    <NavigationProperty Name="politica" Relationship="Self.asignacion_politica" FromRole="maquina_virtual" ToRole="politica" />
   </EntityType>
   <EntityType Name="politica">
     <Key>
@@ -59,7 +56,6 @@
     <Property Name="num_respaldos" Type="Int32" />
     <Property Name="dias" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
     <Property Name="politica_default" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-    <NavigationProperty Name="maquina_virtual" Relationship="Self.asignacion_politica" FromRole="politica" ToRole="maquina_virtual" />
   </EntityType>
   <EntityType Name="servidor">
     <Key>
@@ -70,7 +66,17 @@
     <Property Name="direccion_ip" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
     <Property Name="tipo" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
     <NavigationProperty Name="maquina_virtual" Relationship="Self.fk_servidor_maquinav" FromRole="servidor" ToRole="maquina_virtual" />
-    <NavigationProperty Name="Comando" Relationship="Self.comando_servidor" FromRole="servidor" ToRole="Comando" />
+    <NavigationProperty Name="Usuarios_SSH" Relationship="Self.fk_servidor_ssh" FromRole="servidor" ToRole="Usuarios_SSH" />
+  </EntityType>
+  <EntityType Name="Usuarios_SSH">
+    <Key>
+      <PropertyRef Name="id_User" />
+    </Key>
+    <Property Name="id_User" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_servidor" Type="Int32" Nullable="false" />
+    <Property Name="usuario" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="password" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="servidor" Relationship="Self.fk_servidor_ssh" FromRole="Usuarios_SSH" ToRole="servidor" />
   </EntityType>
   <Association Name="fk_maquinav_bitacora">
     <End Role="maquina_virtual" Type="Self.maquina_virtual" Multiplicity="1">
@@ -100,21 +106,28 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="asignacion_politica">
-    <End Role="maquina_virtual" Type="Self.maquina_virtual" Multiplicity="*" />
-    <End Role="politica" Type="Self.politica" Multiplicity="*" />
+  <Association Name="fk_servidor_ssh">
+    <End Role="servidor" Type="Self.servidor" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Usuarios_SSH" Type="Self.Usuarios_SSH" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="servidor">
+        <PropertyRef Name="id_servidor" />
+      </Principal>
+      <Dependent Role="Usuarios_SSH">
+        <PropertyRef Name="id_servidor" />
+      </Dependent>
+    </ReferentialConstraint>
   </Association>
-  <Association Name="comando_servidor">
-    <End Role="Comando" Type="Self.Comando" Multiplicity="*" />
-    <End Role="servidor" Type="Self.servidor" Multiplicity="*" />
-  </Association>
-  <EntityContainer Name="RespaldosEntities1" annotation:LazyLoadingEnabled="true">
+  <EntityContainer Name="RespaldosEntities" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="Bitacora" EntityType="Self.Bitacora" />
     <EntitySet Name="Comando" EntityType="Self.Comando" />
     <EntitySet Name="Grupo" EntityType="Self.Grupo" />
     <EntitySet Name="maquina_virtual" EntityType="Self.maquina_virtual" />
     <EntitySet Name="politica" EntityType="Self.politica" />
     <EntitySet Name="servidor" EntityType="Self.servidor" />
+    <EntitySet Name="Usuarios_SSH" EntityType="Self.Usuarios_SSH" />
     <AssociationSet Name="fk_maquinav_bitacora" Association="Self.fk_maquinav_bitacora">
       <End Role="maquina_virtual" EntitySet="maquina_virtual" />
       <End Role="Bitacora" EntitySet="Bitacora" />
@@ -123,13 +136,9 @@
       <End Role="servidor" EntitySet="servidor" />
       <End Role="maquina_virtual" EntitySet="maquina_virtual" />
     </AssociationSet>
-    <AssociationSet Name="asignacion_politica" Association="Self.asignacion_politica">
-      <End Role="maquina_virtual" EntitySet="maquina_virtual" />
-      <End Role="politica" EntitySet="politica" />
-    </AssociationSet>
-    <AssociationSet Name="comando_servidor" Association="Self.comando_servidor">
-      <End Role="Comando" EntitySet="Comando" />
+    <AssociationSet Name="fk_servidor_ssh" Association="Self.fk_servidor_ssh">
       <End Role="servidor" EntitySet="servidor" />
+      <End Role="Usuarios_SSH" EntitySet="Usuarios_SSH" />
     </AssociationSet>
   </EntityContainer>
 </Schema>

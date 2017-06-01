@@ -13,12 +13,12 @@ namespace ProyectoRespaldo.Controllers
 
         public HomeController()
         {
-            datos.Add(new Informacion("Jose", "Rios2", 19, true, DateTime.Now.Date));
-            datos.Add(new Informacion("Josex", "Rios2", 25, true, DateTime.Now.Date));
-            datos.Add(new Informacion("Joset", "Rios3", 36, false, DateTime.Now.Date));
-            datos.Add(new Informacion("Joser", "Rios4", 47, true, DateTime.Now.Date));
-            datos.Add(new Informacion("Joset", "Rios4", 58, false, DateTime.Now.Date));
-            datos.Add(new Informacion("Joseq", "Rios5", 67, false, DateTime.Now.Date));
+            datos.Add(new Informacion("MV1", "Servidor 1", 19, true, DateTime.Now.Date));
+            datos.Add(new Informacion("MV2", "Servidor 2", 25, true, DateTime.Now.Date));
+            datos.Add(new Informacion("MV3", "Servidor 3", 36, false, DateTime.Now.Date));
+            datos.Add(new Informacion("MV4", "Servidor 4", 47, true, DateTime.Now.Date));
+            datos.Add(new Informacion("MV5", "Servidor 5", 58, false, DateTime.Now.Date));
+            datos.Add(new Informacion("MV6", "Servidor 6", 67, false, DateTime.Now.Date));
 
         }
         public ActionResult Index()

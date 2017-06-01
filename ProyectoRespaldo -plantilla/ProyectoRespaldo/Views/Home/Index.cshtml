@@ -29,7 +29,7 @@
 {
 
 columns.Add(c => c.nombre).Titled("Nombre");
-columns.Add(c => c.fecha_nac, "Date").Titled("Fecha de Nac")
+columns.Add(c => c.fecha_inicio, "Date").Titled("Fecha de Inicio")
                                     .SortInitialDirection(GridMvc.Sorting.GridSortDirection.Descending)
                                     .Format("{0:dd/MM/yyyy}");
 
@@ -37,7 +37,7 @@ columns.Add(c => c.status).Titled("Estatus");
 columns.Add().Encoded(false)
              .Sanitized(false)
              .RenderValueAs(d => @<div class="clearfix" >
-                                            <div id="bluecircle" data-percent=@d.edad class="small blue"></div>
+                                            <div id="bluecircle" data-percent=@d.porcentaje class="small blue"></div>
 
                                           </div>).Titled(" % Porcentaje");
         }).WithPaging(3).Sortable().Filterable().WithMultipleFilters().Selectable(false)

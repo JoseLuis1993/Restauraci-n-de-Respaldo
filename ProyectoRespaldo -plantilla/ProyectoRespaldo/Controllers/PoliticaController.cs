@@ -11,7 +11,7 @@ namespace ProyectoRespaldo.Controllers
 {
     public class PoliticaController : Controller
     {
-        private RespaldosEntities1 db = new RespaldosEntities1();
+        private RespaldosEntities db = new RespaldosEntities();
         
         // GET: Politica
         public ActionResult Index_Politica()
@@ -19,9 +19,19 @@ namespace ProyectoRespaldo.Controllers
             return View(db.politica.ToList());
         }
 
-        public ActionResult AsignPolitica()
+        public ActionResult AsignPolitica(string theName)
         {
-            return View();
+            char delimitador = ',';
+            string[] nuevo = theName.Split(delimitador);
+
+            List<string> listaMaquina = new List<string>();
+
+            for (int i = 0; i < nuevo.Length; i++)
+                listaMaquina.Add(nuevo[i]);
+
+            ViewData["ListaM"] = listaMaquina;
+
+            return View(db.politica.ToList());
         }
 
         public ActionResult Create()
