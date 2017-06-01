@@ -27,7 +27,6 @@ namespace ProyectoRespaldo.Models
     
         public virtual DbSet<Bitacora> Bitacora { get; set; }
         public virtual DbSet<Comando> Comando { get; set; }
-        public virtual DbSet<Grupo> Grupo { get; set; }
         public virtual DbSet<maquina_virtual> maquina_virtual { get; set; }
         public virtual DbSet<politica> politica { get; set; }
         public virtual DbSet<servidor> servidor { get; set; }

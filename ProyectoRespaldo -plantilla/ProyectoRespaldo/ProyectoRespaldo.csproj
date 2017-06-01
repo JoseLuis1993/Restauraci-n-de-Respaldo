@@ -215,9 +215,6 @@
     <Compile Include="Models\Comando.cs">
       <DependentUpon>Respaldos.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\Grupo.cs">
-      <DependentUpon>Respaldos.tt</DependentUpon>
-    </Compile>
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\Informacion.cs" />
     <Compile Include="Models\ManageViewModels.cs" />

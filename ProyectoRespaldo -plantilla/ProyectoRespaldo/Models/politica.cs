@@ -11,7 +11,8 @@ namespace ProyectoRespaldo.Models
 {
     using System;
     using System.Collections.Generic;
-    
+    using System.ComponentModel.DataAnnotations;
+
     public partial class politica
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
@@ -22,9 +23,19 @@ namespace ProyectoRespaldo.Models
     
         public long id_politica { get; set; }
         public string nombre { get; set; }
+
+        [DataType(DataType.Date)]
+        [DisplayFormat(DataFormatString ="{0:yyyy-MM-dd}", ApplyFormatInEditMode =true)]
         public Nullable<System.DateTime> fecha_fin { get; set; }
+
+        [DataType(DataType.Time)]
+        [DisplayFormat(DataFormatString = "{0:t}", ApplyFormatInEditMode = true)]
         public Nullable<System.TimeSpan> hora_inicio { get; set; }
+
+        [DataType(DataType.Time)]
+        [DisplayFormat(DataFormatString = "{0:t}", ApplyFormatInEditMode = true)]
         public Nullable<System.TimeSpan> hora_fin { get; set; }
+
         public string ruta_almacenamiento { get; set; }
         public Nullable<int> frecuencia_sem { get; set; }
         public Nullable<int> num_respaldos { get; set; }

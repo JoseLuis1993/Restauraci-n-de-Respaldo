@@ -5,12 +5,11 @@
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
       <Diagram DiagramId="d91e5e0ec9344e0eb80400e8abfa3716" Name="Diagram1">
-        <EntityTypeShape EntityType="RespaldosModel.Bitacora" Width="1.5" PointX="7.5" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="RespaldosModel.Bitacora" Width="1.5" PointX="11" PointY="1.25" IsExpanded="true" />
         <EntityTypeShape EntityType="RespaldosModel.Comando" Width="1.5" PointX="0.75" PointY="3.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="RespaldosModel.Grupo" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="RespaldosModel.maquina_virtual" Width="1.5" PointX="5.25" PointY="3.125" IsExpanded="true" />
-        <EntityTypeShape EntityType="RespaldosModel.politica" Width="1.5" PointX="7.5" PointY="4.625" IsExpanded="true" />
-        <EntityTypeShape EntityType="RespaldosModel.servidor" Width="1.5" PointX="3" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RespaldosModel.maquina_virtual" Width="1.5" PointX="7.25" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RespaldosModel.politica" Width="1.5" PointX="9" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RespaldosModel.servidor" Width="1.5" PointX="3.875" PointY="1.25" IsExpanded="true" />
         <AssociationConnector Association="RespaldosModel.fk_maquinav_bitacora" ManuallyRouted="false" />
         <AssociationConnector Association="RespaldosModel.fk_servidor_maquinav" ManuallyRouted="false" />
         <AssociationConnector Association="RespaldosModel.asignacion_politica" ManuallyRouted="false" />

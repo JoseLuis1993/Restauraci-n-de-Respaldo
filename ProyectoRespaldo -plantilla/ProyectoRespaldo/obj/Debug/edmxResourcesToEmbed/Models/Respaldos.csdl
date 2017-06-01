@@ -24,13 +24,6 @@
     <Property Name="uso" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
     <NavigationProperty Name="servidor" Relationship="Self.comando_servidor" FromRole="Comando" ToRole="servidor" />
   </EntityType>
-  <EntityType Name="Grupo">
-    <Key>
-      <PropertyRef Name="id_grupo" />
-    </Key>
-    <Property Name="id_grupo" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-    <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-  </EntityType>
   <EntityType Name="maquina_virtual">
     <Key>
       <PropertyRef Name="Id_maquina" />
@@ -38,7 +31,7 @@
     <Property Name="Id_maquina" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="id_servidor" Type="Int32" Nullable="false" />
     <Property Name="nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
-    <Property Name="estatus" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="estatus" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
     <Property Name="direccion_ip" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
     <Property Name="prioridad" Type="Int32" />
     <NavigationProperty Name="Bitacora" Relationship="Self.fk_maquinav_bitacora" FromRole="maquina_virtual" ToRole="Bitacora" />
@@ -111,7 +104,6 @@
   <EntityContainer Name="RespaldosEntities1" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="Bitacora" EntityType="Self.Bitacora" />
     <EntitySet Name="Comando" EntityType="Self.Comando" />
-    <EntitySet Name="Grupo" EntityType="Self.Grupo" />
     <EntitySet Name="maquina_virtual" EntityType="Self.maquina_virtual" />
     <EntitySet Name="politica" EntityType="Self.politica" />
     <EntitySet Name="servidor" EntityType="Self.servidor" />

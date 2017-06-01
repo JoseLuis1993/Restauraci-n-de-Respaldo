@@ -22,21 +22,21 @@
         </div><br />
         <div>
             @Html.Grid(Model).Columns(columns =>
-            {
-               columns.Add(c => c.nombre).Titled("Nombre");
-               columns.Add(c => c.fecha_fin).Titled("Fecha de fin")
-                                            .SortInitialDirection(GridMvc.Sorting.GridSortDirection.Descending)
-                                            .Format("{0:dd/MM/yyyy}");
-               columns.Add(c => c.hora_inicio).Titled("Hora de inicio");
-               columns.Add(c => c.hora_fin).Titled("Hora de fin");
-               columns.Add(c => c.dias).Titled("Dìas");   
+       {
+           columns.Add(c => c.nombre).Titled("Nombre");
+           columns.Add(c => c.fecha_fin).Titled("Fecha de fin")
+                                        .SortInitialDirection(GridMvc.Sorting.GridSortDirection.Descending)
+                                        .Format("{0:dd/MM/yyyy}");
+           columns.Add(c => c.hora_inicio).Titled("Hora de inicio").Format("{0:hh\\:mm\\:ss}");
+            columns.Add(c => c.hora_fin).Titled("Hora de fin");
+            columns.Add(c => c.dias).Titled("Dìas");
 
-               columns.Add()
-                   .Titled("Opciones")
-                   .Encoded(false)
-                   .Sanitized(false)
-                   .SetWidth(180)
-                   .RenderValueAs(d => @<b> @Html.ActionLink("Editar", "Edit", new { id = d.id_politica }) | @Html.ActionLink("Delete", "Delete", new { id = d.id_politica }) | @Html.ActionLink("Detalles", "Details", new { id = d.id_politica})</b>);
+            columns.Add()
+                .Titled("Opciones")
+                .Encoded(false)
+                .Sanitized(false)
+                .SetWidth(180)
+                .RenderValueAs(d => @<b> @Html.ActionLink("Editar", "Edit", new { id = d.id_politica }) | @Html.ActionLink("Delete", "Delete", new { id = d.id_politica }) | @Html.ActionLink("Detalles", "Details", new { id = d.id_politica})</b>);
 
             }).WithPaging(5).Sortable().Filterable().WithMultipleFilters()
         </div>
