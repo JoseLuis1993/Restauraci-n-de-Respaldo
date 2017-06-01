@@ -25,19 +25,18 @@
 </div>
 
 <div>
-@Html.Grid(Model).Columns(columns =>
-{
-
-columns.Add(c => c.nombre).Titled("Nombre");
-columns.Add(c => c.apellido).Titled("Apellido");
-columns.Add(c => c.fecha_nac, "Date").Titled("Fecha de Nac")
-                                .SortInitialDirection(GridMvc.Sorting.GridSortDirection.Descending)
-                                .Format("{0:dd/MM/yyyy}");
-columns.Add(c => c.edad).Titled("Edad");
-columns.Add(c => c.status).Titled("Estatus");
-columns.Add().Encoded(false)
-             .Sanitized(false)
-             .RenderValueAs(d => @<div class="clearfix" >
+    @Html.Grid(Model).Columns(columns =>
+    {
+        columns.Add(c => c.nombre).Titled("Nombre");
+        columns.Add(c => c.apellido).Titled("Apellido");
+        columns.Add(c => c.fecha_nac, "Date").Titled("Fecha de Nac")
+                                             .SortInitialDirection(GridMvc.Sorting.GridSortDirection.Descending)
+                                             .Format("{0:dd/MM/yyyy}");
+        columns.Add(c => c.edad).Titled("Edad");
+        columns.Add(c => c.status).Titled("Estatus");
+        columns.Add().Encoded(false)
+                    .Sanitized(false)
+                    .RenderValueAs(d => @<div class="clearfix" >
                                             <div id="bluecircle" data-percent=@d.edad class="small blue"></div>
 
                                           </div>).Titled(" % Porcentaje");
