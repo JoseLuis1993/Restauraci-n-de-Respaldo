@@ -1,0 +1,81 @@
+﻿@model IEnumerable<ProyectoRespaldo.Models.politica>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.nombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.fecha_fin)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.hora_inicio)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.hora_fin)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ruta_almacenamiento)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.frecuencia_sem)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.num_respaldos)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.dias)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.politica_default)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.nombre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.fecha_fin)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.hora_inicio)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.hora_fin)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ruta_almacenamiento)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.frecuencia_sem)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.num_respaldos)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.dias)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.politica_default)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.id_politica }) |
+            @Html.ActionLink("Details", "Details", new { id=item.id_politica }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.id_politica })
+        </td>
+    </tr>
+}
+
+</table>

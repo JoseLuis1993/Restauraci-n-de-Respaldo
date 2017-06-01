@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="cb7acf44dab140019f36e2315897c2d1" Name="Diagram1">
+        <EntityTypeShape EntityType="RespaldosModel.Bitacora" Width="1.5" PointX="7.5" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="RespaldosModel.Comando" Width="1.5" PointX="0.75" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RespaldosModel.maquina_virtual" Width="1.5" PointX="5.25" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="RespaldosModel.politica" Width="1.5" PointX="7.5" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="RespaldosModel.servidor" Width="1.5" PointX="3" PointY="3.375" IsExpanded="true" />
+        <AssociationConnector Association="RespaldosModel.fk_maquinav_bitacora" ManuallyRouted="false" />
+        <AssociationConnector Association="RespaldosModel.fk_servidor_maquinav" ManuallyRouted="false" />
+        <AssociationConnector Association="RespaldosModel.asignacion_politica" ManuallyRouted="false" />
+        <AssociationConnector Association="RespaldosModel.comando_servidor" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

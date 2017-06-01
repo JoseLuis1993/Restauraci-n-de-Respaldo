@@ -1,0 +1,96 @@
+﻿@model ProyectoRespaldo.Models.politica
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Eliminar</h2>
+
+<h3>¿Esta seguro que desea eliminar el siguiente registro?</h3>
+<div>
+    <h4>@Html.DisplayFor(model => model.nombre)</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+           Nombre
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nombre)
+        </dd>
+
+        <dt>
+            Fecha de fin
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.fecha_fin)
+        </dd>
+
+        <dt>
+            Hora de inicio
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.hora_inicio)
+        </dd>
+
+        <dt>
+            Hora de fin
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.hora_fin)
+        </dd>
+
+        <dt>
+            Ruta de almacenamiento
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ruta_almacenamiento)
+        </dd>
+
+        <dt>
+            Frecuencia semanal
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.frecuencia_sem)
+        </dd>
+
+        <dt>
+            Número de respaldos
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.num_respaldos)
+        </dd>
+
+        <dt>
+            Días
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.dias)
+        </dd>
+
+        <dt>
+            ¿Política por default?
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.politica_default)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Eliminar" class="btn btn-default" /> |
+            @Html.ActionLink("Regresar", "Index_Politica")
+        </div>
+    }
+</div>

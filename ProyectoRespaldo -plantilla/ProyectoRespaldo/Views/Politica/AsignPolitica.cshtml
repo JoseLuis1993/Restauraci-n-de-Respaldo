@@ -1,4 +1,6 @@
-﻿@using Microsoft.AspNet.Identity
+﻿@model IEnumerable<ProyectoRespaldo.Models.politica>
+@using Microsoft.AspNet.Identity
+
 @if (Request.IsAuthenticated)
 {
 
@@ -12,15 +14,10 @@
                 <h4>Máquinas seleccionadas</h4>
                 <br />
                 <div class="list-group" style="overflow:scroll; height:300px;">
-                    <p class="list-group-item"> <img src="@Url.Content("~/Content/Computer.png")" width="30" height="30" /> Máquina 1 </p>
-                    <p class="list-group-item"> <img src="@Url.Content("~/Content/Computer.png")" width="30" height="30" /> Máquina 2</p>
-                    <p class="list-group-item"> <img src="@Url.Content("~/Content/Computer.png")" width="30" height="30" /> Máquina 3</p>
-                    <p class="list-group-item"> <img src="@Url.Content("~/Content/Computer.png")" width="30" height="30" /> Máquina 4</p>
-                    <p class="list-group-item"> <img src="@Url.Content("~/Content/Computer.png")" width="30" height="30" /> Máquina 5</p>
-                    <p class="list-group-item"> <img src="@Url.Content("~/Content/Computer.png")" width="30" height="30" /> Máquina 6</p>
-                    <p class="list-group-item"> <img src="@Url.Content("~/Content/Computer.png")" width="30" height="30" /> Máquina 7</p>
-                    <p class="list-group-item"> <img src="@Url.Content("~/Content/Computer.png")" width="30" height="30" /> Máquina 8</p>
-                    <p class="list-group-item"> <img src="@Url.Content("~/Content/Computer.png")" width="30" height="30" /> Máquina 9</p>
+                    @foreach (string maquina in (List<string>)ViewData["ListaM"])
+                    {
+                        <p class="list-group-item"> <img src="@Url.Content("~/Content/Computer.png")" width="30" /> @maquina</p>
+                    }
                 </div>
             </div>
 
@@ -28,19 +25,10 @@
                 <h4>Políticas disponibles</h4>
                 <br />
                 <select name="from[]" id="lstview" class="form-control" size="15" multiple="multiple">
-                    <option value="HTML">HTML2</option>
-                    <option value="2">CSS</option>
-                    <option value="CSS">CSS3</option>
-                    <option value="jQuery">jQuery</option>
-                    <option value="JavaScript">JavaScript</option>
-                    <option value="Bootstrap">Bootstrap</option>
-                    <option value="MySQL">MySQL</option>
-                    <option value="PHP">PHP</option>
-                    <option value="JSP">JSP</option>
-                    <option value="Rubi on Rails">Rubi on Rails</option>
-                    <option value="SQL">SQL</option>
-                    <option value="Java">Java</option>
-                    <option value="Python">Python</option>
+                    @foreach (var item in Model)
+                    {
+                        <option value=@item.nombre>@item.nombre</option>
+                    }
                 </select>
             </div>
 

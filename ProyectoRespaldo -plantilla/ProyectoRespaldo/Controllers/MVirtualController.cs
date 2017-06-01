@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
+using System.Data.Entity;
 using System.Linq;
+using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using ProyectoRespaldo.Models;
@@ -9,97 +12,30 @@ namespace ProyectoRespaldo.Controllers
 {
     public class MVirtualController : Controller
     {
-        List<Informacion> datos = new List<Informacion>();
-
-        public MVirtualController()
-        {
-            datos.Add(new Informacion("Jose", "Rios2", 19, true, DateTime.Now.Date));
-            datos.Add(new Informacion("Josex", "Rios2", 25, true, DateTime.Now.Date));
-            datos.Add(new Informacion("Joset", "Rios3", 36, false, DateTime.Now.Date));
-            datos.Add(new Informacion("Joser", "Rios4", 47, true, DateTime.Now.Date));
-            datos.Add(new Informacion("Joset", "Rios4", 58, false, DateTime.Now.Date));
-            datos.Add(new Informacion("Joseq", "Rios5", 67, false, DateTime.Now.Date));
-
-        }
+        private RespaldosEntities1 db = new RespaldosEntities1();
+        
 
         // GET: MVirtual
         public ActionResult Index_MVirtual()
         {
-            return View(datos);
+            var maquina_virtual = db.maquina_virtual.Include(m => m.servidor);
+            return View(maquina_virtual.ToList());
         }
 
-
-
-        // GET: MVirtual/Details/5
-        public ActionResult Details(int id)
+        // GET: maquina_virtual/Details/5
+        public ActionResult Details(long? id)
         {
-            return View();
-        }
-
-        // GET: MVirtual/Create
-        public ActionResult Create()
-        {
-            return View();
-        }
-
-        // POST: MVirtual/Create
-        [HttpPost]
-        public ActionResult Create(FormCollection collection)
-        {
-            try
+            if (id == null)
             {
-                // TODO: Add insert logic here
-
-                return RedirectToAction("Index");
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            catch
+            maquina_virtual maquina_virtual = db.maquina_virtual.Find(id);
+            if (maquina_virtual == null)
             {
-                return View();
+                return HttpNotFound();
             }
+            return View(maquina_virtual);
         }
 
-        // GET: MVirtual/Edit/5
-        public ActionResult Edit(int id)
-        {
-            return View();
-        }
-
-        // POST: MVirtual/Edit/5
-        [HttpPost]
-        public ActionResult Edit(int id, FormCollection collection)
-        {
-            try
-            {
-                // TODO: Add update logic here
-
-                return RedirectToAction("Index");
-            }
-            catch
-            {
-                return View();
-            }
-        }
-
-        // GET: MVirtual/Delete/5
-        public ActionResult Delete(int id)
-        {
-            return View();
-        }
-
-        // POST: MVirtual/Delete/5
-        [HttpPost]
-        public ActionResult Delete(int id, FormCollection collection)
-        {
-            try
-            {
-                // TODO: Add delete logic here
-
-                return RedirectToAction("Index");
-            }
-            catch
-            {
-                return View();
-            }
-        }
     }
 }

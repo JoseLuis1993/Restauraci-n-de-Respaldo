@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="RespaldosModel1.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Comando">
+          <Key>
+            <PropertyRef Name="Id_comando" />
+          </Key>
+          <Property Name="Id_comando" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Nombre" Type="varchar" MaxLength="50" />
+          <Property Name="Opciones" Type="varchar" MaxLength="150" />
+          <Property Name="uso" Type="varchar" MaxLength="30" />
+        </EntityType>
+        <EntityType Name="Grupo">
+          <Key>
+            <PropertyRef Name="id_grupo" />
+          </Key>
+          <Property Name="id_grupo" Type="bigint" Nullable="false" />
+          <Property Name="nombre" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="maquina_virtual">
+          <Key>
+            <PropertyRef Name="Id_maquina" />
+          </Key>
+          <Property Name="Id_maquina" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="id_servidor" Type="int" Nullable="false" />
+          <Property Name="nombre" Type="varchar" MaxLength="100" />
+          <Property Name="estatus" Type="varchar" MaxLength="50" />
+          <Property Name="direccion_ip" Type="varchar" MaxLength="50" />
+          <Property Name="prioridad" Type="int" />
+        </EntityType>
+        <EntityType Name="Persona">
+          <Key>
+            <PropertyRef Name="id_persona" />
+          </Key>
+          <Property Name="id_persona" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="nomre_usuario" Type="varchar" MaxLength="50" />
+          <Property Name="apellido_paterno" Type="varchar" MaxLength="50" />
+          <Property Name="apellido_materno" Type="varchar" MaxLength="5" />
+          <Property Name="correo" Type="varchar" MaxLength="50" />
+          <Property Name="telefono" Type="int" />
+        </EntityType>
+        <EntityType Name="politica">
+          <Key>
+            <PropertyRef Name="id_politica" />
+          </Key>
+          <Property Name="id_politica" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="nombre" Type="varchar" MaxLength="50" />
+          <Property Name="fecha_fin" Type="date" />
+          <Property Name="hora_inicio" Type="time" Precision="7" />
+          <Property Name="hora_fin" Type="time" Precision="7" />
+          <Property Name="ruta_almacenamiento" Type="varchar" MaxLength="50" />
+          <Property Name="frecuencia_sem" Type="int" />
+          <Property Name="num_respaldos" Type="int" />
+          <Property Name="dias" Type="varchar" MaxLength="50" />
+          <Property Name="politica_default" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="servidor">
+          <Key>
+            <PropertyRef Name="id_servidor" />
+          </Key>
+          <Property Name="id_servidor" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="nombre" Type="varchar" MaxLength="50" />
+          <Property Name="direccion_ip" Type="varchar" MaxLength="50" />
+          <Property Name="tipo" Type="varchar" MaxLength="30" />
+        </EntityType>
+        <EntityContainer Name="RespaldosModel1StoreContainer">
+          <EntitySet Name="Comando" EntityType="Self.Comando" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Grupo" EntityType="Self.Grupo" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="maquina_virtual" EntityType="Self.maquina_virtual" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Persona" EntityType="Self.Persona" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="politica" EntityType="Self.politica" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="servidor" EntityType="Self.servidor" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="RespaldosModel1" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Comando">
+          <Key>
+            <PropertyRef Name="Id_comando" />
+          </Key>
+          <Property Name="Id_comando" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Opciones" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+          <Property Name="uso" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="Grupo">
+          <Key>
+            <PropertyRef Name="id_grupo" />
+          </Key>
+          <Property Name="id_grupo" Type="Int64" Nullable="false" />
+          <Property Name="nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="maquina_virtual">
+          <Key>
+            <PropertyRef Name="Id_maquina" />
+          </Key>
+          <Property Name="Id_maquina" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="id_servidor" Type="Int32" Nullable="false" />
+          <Property Name="nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="estatus" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="direccion_ip" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="prioridad" Type="Int32" />
+        </EntityType>
+        <EntityType Name="Persona">
+          <Key>
+            <PropertyRef Name="id_persona" />
+          </Key>
+          <Property Name="id_persona" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="nomre_usuario" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="apellido_paterno" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="apellido_materno" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+          <Property Name="correo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="telefono" Type="Int32" />
+        </EntityType>
+        <EntityType Name="politica">
+          <Key>
+            <PropertyRef Name="id_politica" />
+          </Key>
+          <Property Name="id_politica" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="fecha_fin" Type="DateTime" Precision="0" />
+          <Property Name="hora_inicio" Type="Time" Precision="7" />
+          <Property Name="hora_fin" Type="Time" Precision="7" />
+          <Property Name="ruta_almacenamiento" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="frecuencia_sem" Type="Int32" />
+          <Property Name="num_respaldos" Type="Int32" />
+          <Property Name="dias" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="politica_default" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="servidor">
+          <Key>
+            <PropertyRef Name="id_servidor" />
+          </Key>
+          <Property Name="id_servidor" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="direccion_ip" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="tipo" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityContainer Name="RespaldosEntities2" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Comando" EntityType="Self.Comando" />
+          <EntitySet Name="Grupo" EntityType="Self.Grupo" />
+          <EntitySet Name="maquina_virtual" EntityType="Self.maquina_virtual" />
+          <EntitySet Name="Persona" EntityType="Self.Persona" />
+          <EntitySet Name="politica" EntityType="Self.politica" />
+          <EntitySet Name="servidor" EntityType="Self.servidor" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="RespaldosModel1StoreContainer" CdmEntityContainer="RespaldosEntities2">
+          <EntitySetMapping Name="Comando">
+            <EntityTypeMapping TypeName="RespaldosModel1.Comando">
+              <MappingFragment StoreEntitySet="Comando">
+                <ScalarProperty Name="Id_comando" ColumnName="Id_comando" />
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+                <ScalarProperty Name="Opciones" ColumnName="Opciones" />
+                <ScalarProperty Name="uso" ColumnName="uso" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Grupo">
+            <EntityTypeMapping TypeName="RespaldosModel1.Grupo">
+              <MappingFragment StoreEntitySet="Grupo">
+                <ScalarProperty Name="id_grupo" ColumnName="id_grupo" />
+                <ScalarProperty Name="nombre" ColumnName="nombre" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="maquina_virtual">
+            <EntityTypeMapping TypeName="RespaldosModel1.maquina_virtual">
+              <MappingFragment StoreEntitySet="maquina_virtual">
+                <ScalarProperty Name="Id_maquina" ColumnName="Id_maquina" />
+                <ScalarProperty Name="id_servidor" ColumnName="id_servidor" />
+                <ScalarProperty Name="nombre" ColumnName="nombre" />
+                <ScalarProperty Name="estatus" ColumnName="estatus" />
+                <ScalarProperty Name="direccion_ip" ColumnName="direccion_ip" />
+                <ScalarProperty Name="prioridad" ColumnName="prioridad" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Persona">
+            <EntityTypeMapping TypeName="RespaldosModel1.Persona">
+              <MappingFragment StoreEntitySet="Persona">
+                <ScalarProperty Name="id_persona" ColumnName="id_persona" />
+                <ScalarProperty Name="nomre_usuario" ColumnName="nomre_usuario" />
+                <ScalarProperty Name="apellido_paterno" ColumnName="apellido_paterno" />
+                <ScalarProperty Name="apellido_materno" ColumnName="apellido_materno" />
+                <ScalarProperty Name="correo" ColumnName="correo" />
+                <ScalarProperty Name="telefono" ColumnName="telefono" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="politica">
+            <EntityTypeMapping TypeName="RespaldosModel1.politica">
+              <MappingFragment StoreEntitySet="politica">
+                <ScalarProperty Name="id_politica" ColumnName="id_politica" />
+                <ScalarProperty Name="nombre" ColumnName="nombre" />
+                <ScalarProperty Name="fecha_fin" ColumnName="fecha_fin" />
+                <ScalarProperty Name="hora_inicio" ColumnName="hora_inicio" />
+                <ScalarProperty Name="hora_fin" ColumnName="hora_fin" />
+                <ScalarProperty Name="ruta_almacenamiento" ColumnName="ruta_almacenamiento" />
+                <ScalarProperty Name="frecuencia_sem" ColumnName="frecuencia_sem" />
+                <ScalarProperty Name="num_respaldos" ColumnName="num_respaldos" />
+                <ScalarProperty Name="dias" ColumnName="dias" />
+                <ScalarProperty Name="politica_default" ColumnName="politica_default" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="servidor">
+            <EntityTypeMapping TypeName="RespaldosModel1.servidor">
+              <MappingFragment StoreEntitySet="servidor">
+                <ScalarProperty Name="id_servidor" ColumnName="id_servidor" />
+                <ScalarProperty Name="nombre" ColumnName="nombre" />
+                <ScalarProperty Name="direccion_ip" ColumnName="direccion_ip" />
+                <ScalarProperty Name="tipo" ColumnName="tipo" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Ninguno" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
