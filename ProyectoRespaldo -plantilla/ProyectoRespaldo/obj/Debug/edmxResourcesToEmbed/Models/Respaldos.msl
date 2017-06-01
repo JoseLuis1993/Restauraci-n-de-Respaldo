@@ -25,14 +25,6 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <EntitySetMapping Name="Grupo">
-      <EntityTypeMapping TypeName="RespaldosModel.Grupo">
-        <MappingFragment StoreEntitySet="Grupo">
-          <ScalarProperty Name="id_grupo" ColumnName="id_grupo" />
-          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
-        </MappingFragment>
-      </EntityTypeMapping>
-    </EntitySetMapping>
     <EntitySetMapping Name="maquina_virtual">
       <EntityTypeMapping TypeName="RespaldosModel.maquina_virtual">
         <MappingFragment StoreEntitySet="maquina_virtual">
